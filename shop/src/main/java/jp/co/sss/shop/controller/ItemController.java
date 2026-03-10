@@ -54,5 +54,11 @@ public class ItemController {
     public String showItemListByNameLike(@PathVariable String name, Model model) { 
         model.addAttribute("items", repository.findByNameContaining(name)); 
         return "items/item_list"; 
+    }
+    
+    @RequestMapping("/items/findAllAndSetDropdown") 
+    public String itemListSetDropdown(Model model) { 
+	    model.addAttribute("items", repository.findAll()); 
+	    return "items/item_list_dropdown";
     } 
 } 
