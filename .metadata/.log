@@ -396,3 +396,63 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 
 !ENTRY org.eclipse.core.resources 2 10035 2026-03-10 13:35:14.459
 !MESSAGE ワークスペースは以前のセッションで変更が保存されずに終了しました； 変更を回復するためにワークスペースをリフレッシュ中です。
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-03-10 15:29:51.179
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY mergedoc.encoding 2 0 2026-03-10 16:28:39.539
+!MESSAGE リソース '/practice/src/main/java/jp/co/sss/practice/p06/entity/FruitSeason.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2026-03-10 16:28:39.541
+!MESSAGE リソース '/practice/src/main/java/jp/co/sss/practice/p06/entity/FruitSeason.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2026-03-10 16:28:39.579
+!MESSAGE リソース '/practice/src/main/java/jp/co/sss/practice/p06/entity/FruitSeason.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2026-03-10 16:28:39.581
+!MESSAGE リソース '/practice/src/main/java/jp/co/sss/practice/p06/entity/FruitSeason.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2026-03-10 16:28:39.583
+!MESSAGE リソース '/practice/src/main/java/jp/co/sss/practice/p06/entity/FruitSeason.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2026-03-10 16:28:39.584
+!MESSAGE リソース '/practice/src/main/java/jp/co/sss/practice/p06/entity/FruitSeason.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2026-03-10 16:28:39.586
+!MESSAGE リソース '/practice/src/main/java/jp/co/sss/practice/p06/entity/FruitSeason.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2026-03-10 16:28:39.587
+!MESSAGE リソース '/practice/src/main/java/jp/co/sss/practice/p06/entity/FruitSeason.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2026-03-10 16:28:39.589
+!MESSAGE リソース '/practice/src/main/java/jp/co/sss/practice/p06/entity/FruitSeason.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2026-03-10 16:28:39.591
+!MESSAGE リソース '/practice/src/main/java/jp/co/sss/practice/p06/entity/FruitSeason.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2026-03-10 16:28:39.645
+!MESSAGE リソース '/practice/src/main/java/jp/co/sss/practice/p06/entity/FruitSeason.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2026-03-10 16:28:39.647
+!MESSAGE リソース '/practice/src/main/java/jp/co/sss/practice/p06/entity/FruitSeason.java' が存在しません。
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-03-10 16:50:09.258
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
