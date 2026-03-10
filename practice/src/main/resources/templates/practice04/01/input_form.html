@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Spring 練習問題 基礎編 Practice4-01</h1>
+
+GETとPOSTの違い
+<hr>
+
+<p>
+<h4>GET送信:今の気分はどの色？</h4>
+<form th:action="@{/send/get_method}" >
+	<input type="radio" name="color" value="red"/><label>赤</label>
+	<input type="radio" name="color" value="orange"/><label>オレンジ</label>
+	<input type="radio" name="color" value="yellow"/><label>黄</label>
+	<input type="radio" name="color" value="green"/><label>緑</label>
+	<input type="radio" name="color" value="blue"/><label>青</label>
+	<input type="radio" name="color" value="purple"/><label>紫</label>
+	<input type="submit" value="GETで送信" />
+</form>
+</p>
+<hr>
+<p>
+<h4>POST送信:今の気分はどの色？</h4>
+<form th:action="@{/send/post_method}" method="post">
+<input type="radio" name="color" value="red"/><label>赤</label>
+<input type="radio" name="color" value="orange"/><label>オレンジ</label>
+<input type="radio" name="color" value="yellow"/><label>黄</label>
+<input type="radio" name="color" value="green"/><label>緑</label>
+<input type="radio" name="color" value="blue"/><label>青</label>
+<input type="radio" name="color" value="purple"/><label>紫</label>
+<input type="submit" value="POSTで送信" />
+</form>
+</p>
+
+</body>
+</html>
