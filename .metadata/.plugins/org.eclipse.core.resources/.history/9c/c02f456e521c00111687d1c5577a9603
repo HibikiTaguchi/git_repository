@@ -1,0 +1,5 @@
+package jp.co.sss.practice.p06.entity;
+
+public class FruitSeason {
+
+}

@@ -1,0 +1,8 @@
+package jp.co.sss.practice.p05.q01.form;
+
+public class BmiForm {
+	private String name;
+	private Double height;
+	private Double weight;
+	private Double bmi;
+}

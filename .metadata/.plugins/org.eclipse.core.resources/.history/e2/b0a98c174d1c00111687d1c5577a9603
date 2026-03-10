@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Spring 練習問題 基礎編 Practice5-02</h1>
+
+<p>
+<h4>数あてゲーム 終了画面</h4>
+<span>当たりです。正解は「5」です。</span>
+</p>
+<a href="/numguess/start">数あてゲーム開始</a>
+
+</body>
+</html>
+
+

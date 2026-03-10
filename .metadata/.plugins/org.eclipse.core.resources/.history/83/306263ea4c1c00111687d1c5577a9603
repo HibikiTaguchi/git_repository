@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Spring 練習問題 基礎編 Practice5-02</h1>
+
+<p>
+<h4>数あてゲーム 判定結果</h4>
+<span>はずれです。もう一度入力してください。</span>
+</p>
+<a href="/numguess/input">入力画面に戻る</a>
+
+</body>
+</html>
+
+

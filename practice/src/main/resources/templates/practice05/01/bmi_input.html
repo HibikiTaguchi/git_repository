@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Spring 練習問題 基礎編 Practice5-01</h1>
+
+Formクラスとリクエストスコープの利用
+<hr>
+<p>
+<h4>BMIを計算します。下記の項目を入力し送信ボタンをクリックしてください。</h4>
+<form th:action="@{/bmi/result}" method="post">
+<table>
+<tr><td>名前:</td><td><input type="text" name="name" /></td></tr>
+<tr><td>身長(cm):</td><td><input type="text" name="height"/></td></tr>
+<tr><td>体重(kg):</td><td><input type="text" name="weight"/></td></tr>
+</table>
+<input type="submit" value="送信" />
+</form>
+</p>
+
+</body>
+</html>

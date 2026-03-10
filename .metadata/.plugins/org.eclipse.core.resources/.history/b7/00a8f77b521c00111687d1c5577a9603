@@ -1,0 +1,8 @@
+package jp.co.sss.practice.p06.entity;
+
+import jakarta.persistence.Entity;
+
+@Entity@Table
+public class FruitSeason {
+
+}
