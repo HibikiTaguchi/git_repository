@@ -50,12 +50,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<!-- JPAã‚’ä½¿ç”¨ã™ã‚‹ãŸã‚ã®è¨­å®š --> 
+		<!-- JPA‚ðŽg—p‚·‚é‚½‚ß‚ÌÝ’è --> 
 		<dependency> 
 			  <groupId>org.springframework.boot</groupId> 
 			  <artifactId>spring-boot-starter-data-jpa</artifactId> 
 		</dependency> 
-		<!-- JDBCã‚’ä½¿ç”¨ã™ã‚‹ãŸã‚ã®è¨­å®š(ojdbc11.jarã‚’åˆ©ç”¨ã™ã‚‹ãŸã‚ã®è¨­å®š) --> 
+		<!-- JDBC‚ðŽg—p‚·‚é‚½‚ß‚ÌÝ’è(ojdbc11.jar‚ð—˜—p‚·‚é‚½‚ß‚ÌÝ’è) --> 
 		<dependency> 
 			  <groupId>com.oracle.database.jdbc</groupId> 
 			  <artifactId>ojdbc11</artifactId> 
