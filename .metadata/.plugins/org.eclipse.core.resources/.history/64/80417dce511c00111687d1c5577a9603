@@ -1,4 +1,0 @@
-spring.application.name=practice
-server.servlet.context-path=/practice
-server.port=5555
-spring.thymeleaf.cache=false 
