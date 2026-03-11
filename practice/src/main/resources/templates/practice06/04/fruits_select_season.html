@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Spring 練習問題 基礎編 Practice6-04</h1>
+
+データベース操作 条件検索と並べ替え
+<hr>
+<p>
+<h4>季節を選択し、検索ボタンをクリックしてください。</h4>
+<form th:action="@{/fruits/search/result}">
+<select name="season">
+<option value="1">1月</option>
+<option value="2">2月</option>
+<option value="3">3月</option>
+<option value="4">4月</option>
+<option value="5">5月</option>
+<option value="6">6月</option>
+<option value="7">7月</option>
+<option value="8">8月</option>
+<option value="9">9月</option>
+<option value="10">10月</option>
+<option value="11">11月</option>
+<option value="12">12月</option>
+<option value="13">通年</option>
+</select>
+<input type="submit" value="検索" />
+</form>
+</p>
+
+</body>
+</html>

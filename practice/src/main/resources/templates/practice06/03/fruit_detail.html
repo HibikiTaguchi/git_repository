@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Spring 練習問題 基礎編 Practice6-03</h1>
+
+データベース操作 並べ替え・主キー検索
+<hr>
+<p>
+<h4>果物情報詳細</h4>
+<table>
+<tr>
+<td>ID</td><td th:text="${detail.fruitId}"></td>
+</tr>
+<tr>
+<td>名前</td><td th:text="${detail.fruitName}"></td>
+</tr>
+<tr>
+<td>旬の季節(○月,13:通年)</td><td th:text="${detail.seasonMonth}"></td>
+</tr>
+
+</table>
+</p>
+<a th:href="@{/fruits/list/sort/id}">一覧に戻る</a>
+</body>
+</html>

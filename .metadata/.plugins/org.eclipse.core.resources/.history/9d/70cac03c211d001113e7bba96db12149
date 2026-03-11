@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Spring 練習問題 基礎編 Practice6-04</h1>
+
+データベース操作 条件検索と並べ替え結果
+<hr>
+<p>
+<h4>季節の果物の一覧</h4>
+検索条件:<span th:text="＜${str}＞"></span>
+<table>
+<tr>
+<td>ID</td>
+<td>名前</td>
+</tr>
+<tr th:each="fruit: ${fsList}">
+<td th:text="${fruit.fruitId}"></td>
+<td th:text="${fruit.fruitName}"></td>
+</tr>
+</table>
+</p>
+<a href="@{/fruits/search/input}">「旬の季節」選択に戻る</a>
+
+
+</body>
+</html>

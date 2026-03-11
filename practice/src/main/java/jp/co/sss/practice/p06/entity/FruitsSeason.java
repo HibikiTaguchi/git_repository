@@ -13,7 +13,7 @@ import jakarta.persistence.Table;
 public class FruitsSeason {
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "sfs_gen")
-	@SequenceGenerator(name = "sfs_gen", sequenceName = "seq_fruits_season")
+	@SequenceGenerator(name = "sfs_gen", sequenceName = "seq_fruits_season", allocationSize = 1)
 	private Integer fruitId;
 	@Column
 	private String fruitName;
