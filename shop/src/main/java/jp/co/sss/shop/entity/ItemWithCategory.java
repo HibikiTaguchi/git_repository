@@ -1,5 +1,7 @@
 package jp.co.sss.shop.entity; 
  
+import org.hibernate.annotations.NamedQuery;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -11,7 +13,9 @@ import jakarta.persistence.SequenceGenerator;
 import jakarta.persistence.Table; 
  
 @Entity 
-@Table(name = "items_with_categories") 
+@Table(name = "items_with_categories")
+@NamedQuery(name="findByIdNamedQuery", 
+query="SELECT i FROM ItemWithCategory i WHERE i.id = :id")
 public class ItemWithCategory { 
 	 @Id 
 	 @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = 

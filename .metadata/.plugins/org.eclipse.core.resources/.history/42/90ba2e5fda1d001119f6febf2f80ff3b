@@ -1,0 +1,46 @@
+package jp.co.sss.practice.p06.q06.controller;
+
+import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import jp.co.sss.practice.p06.bean.FruitsSeasonBean;
+import jp.co.sss.practice.p06.entity.FruitsSeason;
+import jp.co.sss.practice.p06.form.FruitsSeasonForm;
+import jp.co.sss.practice.p06.repository.FruitsSeasonRepository;
+
+@Controller
+public class Practice0606Controller {
+	@Autowired
+	FruitsSeasonRepository fsRepo;
+	
+	@GetMapping("/fruits/update")
+	public String selectFruit(Model model) {
+		model.addAttribute("fsList", fsRepo.findAll());
+		return "practice06/06/fruit_select";
+	}
+	
+	@RequestMapping(value = "/fruits/update/input"
+			, method = RequestMethod.POST)
+	public String showInput(Integer fruitId , Model model) {
+		FruitsSeason fs = new FruitsSeason();
+		fs = fsRepo.getReferenceById(fruitId);
+		FruitsSeasonBean fsBean = new FruitsSeasonBean();
+		BeanUtils.copyProperties(fs, fsBean);
+		model.addAttribute("fruit", fsBean);
+		return "practice06/06/fruit_input";
+	}
+	
+	@PostMapping("/fruits/update/complete/{fruitId}")
+	public String updateFruitsSeason(@PathVariable Integer fruitId,
+	 FruitsSeasonForm fruitForm , Model model) {
+		
+		return "practice06/06/fruit_detail";
+	}
+}

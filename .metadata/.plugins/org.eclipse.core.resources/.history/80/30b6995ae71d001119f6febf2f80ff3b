@@ -1,0 +1,15 @@
+package jp.co.sss.practice.p07.q02.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import jp.co.sss.practice.p07.repository.FruitsAreaRepository;
+
+@Controller
+public class Practice0702Controller {
+	@Autowired
+	FruitsAreaRepository faRepo;
+	@Autowired
+	AreaRepository areaRepo;
+	
+}

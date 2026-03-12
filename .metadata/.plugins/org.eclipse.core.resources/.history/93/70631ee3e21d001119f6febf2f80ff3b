@@ -1,0 +1,5 @@
+package jp.co.sss.practice.p07.repository;
+
+public interface AreaRepository {
+
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body> 
+  <div>商品の新規登録</div> 
+  <form method="post" th:action="@{/create/complete}">  
+    商品名:<input type="text" name="name" /> 
+    価格:<input type="number" name="price" /> 
+    カテゴリ: 
+    <select name="categoryId"> 
+      <option value="1">食料品</option> 
+      <option value="2">文房具</option> 
+      <option value="3">書籍</option> 
+    </select><br/> 
+    <input type="submit" value="登録" /> 
+  </form> 
+</body> 
+</html>

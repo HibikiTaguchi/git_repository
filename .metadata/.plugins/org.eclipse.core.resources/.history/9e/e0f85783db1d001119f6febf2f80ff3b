@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Spring 練習問題 基礎編 Practice6-06</h1>
+
+データベース操作 更新
+<hr>
+<p>
+<h4>果物情報 更新対象のフルーツ名を選んでください。</h4>
+<form action="/fruits/update/input" method="post">
+<table>
+<tr>
+<td>フルーツ名</td>
+<td><select name="fruitId">
+<option value="1">とちおとめ</option>
+<option value="2">さがほのか</option>
+<option value="3">あすかルビー</option>
+<option value="4">温州みかん</option>
+<option value="5">紅マドンナ</option>
+<option value="6">大三島ネーブル</option>
+<option value="7">グレープフルーツ</option>
+<option value="8">アボガド</option>
+<option value="9">王林</option>
+<option value="10">幸水</option>
+<option value="11">シャインマスカット</option>
+<option value="12">ピオーネ</option>
+<option value="13">晩白柚</option>
+</select>
+</td>
+</tr>
+</table>
+<input type="submit" value="選択"/>
+</form>
+</p>
+</body>
+</html>

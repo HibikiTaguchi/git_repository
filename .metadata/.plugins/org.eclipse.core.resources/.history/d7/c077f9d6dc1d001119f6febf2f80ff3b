@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Spring 練習問題 基礎編 Practice6-06</h1>
+
+データベース操作 更新
+<hr>
+<p>
+<h4>果物情報 更新対象のフルーツ名を選んでください。</h4>
+<form th:action="@{/fruits/update/input}" method="post">
+<table>
+<tr>
+<td>フルーツ名</td>
+<td>
+<select th:each="fruit: ${fsList}" name="fruitId">
+	<option th:value="${fruit.fruitId}" th:text="${fruit.fruitName}"></option>
+</select>
+</td>
+</tr>
+</table>
+<input type="submit" value="選択"/>
+</form>
+</p>
+</body>
+</html>

@@ -516,3 +516,310 @@ Caused by: java.lang.Exception: ファイルが見つかりません: C:\git_repository\prac
 2026-03-11 17:07:19,876 [Worker-87: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2026-03-11 17:07:19,887 [Worker-87: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2026-03-11 17:07:19,896 [Worker-87: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 09:27:32,930 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2026-03-12 09:28:58,996 [Worker-7: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 09:28:59,048 [Worker-7: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2026-03-12 09:28:59,087 [Worker-7: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 09:29:08,382 [Worker-7: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 09:29:08,396 [Worker-7: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2026-03-12 09:29:08,422 [Worker-7: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 09:29:37,565 [Worker-2: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 09:29:37,575 [Worker-2: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2026-03-12 09:29:37,593 [Worker-2: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 09:30:52,902 [Worker-14: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 09:30:52,919 [Worker-14: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2026-03-12 09:30:52,939 [Worker-14: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 09:31:17,307 [Worker-7: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 09:31:17,315 [Worker-7: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2026-03-12 09:31:17,327 [Worker-7: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 10:04:46,683 [Worker-11: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 10:04:46,696 [Worker-11: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2026-03-12 10:04:46,719 [Worker-11: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 10:08:17,743 [Worker-13: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 10:08:17,756 [Worker-13: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2026-03-12 10:08:17,771 [Worker-13: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 10:08:57,867 [Worker-16: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 10:08:57,884 [Worker-16: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2026-03-12 10:08:57,907 [Worker-16: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 10:09:36,322 [Worker-11: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 10:09:36,330 [Worker-11: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2026-03-12 10:09:36,343 [Worker-11: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 10:11:21,546 [Worker-10: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 10:11:21,561 [Worker-10: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2026-03-12 10:11:21,579 [Worker-10: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 10:12:58,393 [Worker-10: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 10:12:58,401 [Worker-10: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2026-03-12 10:12:58,419 [Worker-10: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 10:13:36,743 [Worker-18: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 10:13:36,754 [Worker-18: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 10:13:36,770 [Worker-18: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 10:14:03,942 [Worker-18: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 10:14:03,951 [Worker-18: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 10:14:03,975 [Worker-18: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 10:14:26,371 [Worker-16: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 10:14:26,376 [Worker-16: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 10:14:26,382 [Worker-16: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 10:14:37,021 [Worker-11: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 10:14:37,028 [Worker-11: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 10:14:37,040 [Worker-11: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 10:23:05,937 [Worker-20: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 10:23:05,946 [Worker-20: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2026-03-12 10:23:05,960 [Worker-20: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 10:25:02,944 [Worker-20: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 10:25:02,952 [Worker-20: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 10:25:02,961 [Worker-20: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 10:26:11,293 [Worker-13: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 10:26:11,299 [Worker-13: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 10:26:11,308 [Worker-13: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 10:27:12,525 [Worker-8: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 10:27:12,530 [Worker-8: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 10:27:12,537 [Worker-8: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 11:10:54,086 [Worker-23: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 11:10:54,173 [Worker-23: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 24 resources from src\main\resources to target\classes
+2026-03-12 11:10:54,202 [Worker-23: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 11:12:30,334 [Worker-24: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 11:12:30,388 [Worker-24: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 24 resources from src\main\resources to target\classes
+2026-03-12 11:12:30,403 [Worker-24: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 11:13:09,951 [Worker-23: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 11:13:10,024 [Worker-23: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 24 resources from src\main\resources to target\classes
+2026-03-12 11:13:10,049 [Worker-23: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 11:15:48,048 [Worker-23: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 11:15:48,072 [Worker-23: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 24 resources from src\main\resources to target\classes
+2026-03-12 11:15:48,087 [Worker-23: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 11:20:24,108 [Worker-24: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 11:20:24,122 [Worker-24: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 24 resources from src\main\resources to target\classes
+2026-03-12 11:20:24,139 [Worker-24: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 11:27:04,003 [Worker-25: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 11:27:04,013 [Worker-25: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 24 resources from src\main\resources to target\classes
+2026-03-12 11:27:04,031 [Worker-25: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 12:28:15,668 [Worker-30: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 12:28:15,678 [Worker-30: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 12:28:15,687 [Worker-30: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 12:29:38,210 [Worker-31: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 12:29:38,218 [Worker-31: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 12:29:38,224 [Worker-31: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 12:30:30,637 [Worker-30: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 12:30:30,644 [Worker-30: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 12:30:30,649 [Worker-30: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 12:31:17,881 [Worker-25: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 12:31:17,893 [Worker-25: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 12:31:17,900 [Worker-25: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 12:34:03,073 [Worker-23: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 12:34:03,082 [Worker-23: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 12:34:03,088 [Worker-23: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 12:34:24,869 [Worker-31: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 12:34:24,877 [Worker-31: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 12:34:24,885 [Worker-31: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 13:12:03,705 [Worker-23: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 13:12:03,763 [Worker-23: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2026-03-12 13:12:03,778 [Worker-23: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 13:12:13,070 [Worker-34: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 13:12:13,129 [Worker-34: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2026-03-12 13:12:13,147 [Worker-34: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 13:12:51,480 [Worker-37: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 13:12:51,531 [Worker-37: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2026-03-12 13:12:51,545 [Worker-37: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 13:13:33,199 [Worker-37: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 13:13:33,213 [Worker-37: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2026-03-12 13:13:33,227 [Worker-37: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 13:14:16,717 [Worker-35: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 13:14:16,735 [Worker-35: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2026-03-12 13:14:16,751 [Worker-35: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 13:14:47,200 [Worker-37: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 13:14:47,208 [Worker-37: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 13:14:47,216 [Worker-37: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 14:05:09,751 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 14:05:09,814 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2026-03-12 14:05:09,832 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 14:05:34,682 [Worker-42: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 14:05:34,747 [Worker-42: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2026-03-12 14:05:34,769 [Worker-42: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 14:06:24,806 [Worker-43: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 14:06:24,820 [Worker-43: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2026-03-12 14:06:24,835 [Worker-43: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 14:06:49,211 [Worker-34: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 14:06:49,216 [Worker-34: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 14:06:49,223 [Worker-34: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 14:08:48,580 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 14:08:48,597 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2026-03-12 14:08:48,615 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 14:11:55,569 [Worker-42: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 14:11:55,589 [Worker-42: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2026-03-12 14:11:55,616 [Worker-42: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 14:13:50,021 [Worker-34: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 14:13:50,035 [Worker-34: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2026-03-12 14:13:50,056 [Worker-34: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 14:24:08,346 [Worker-36: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 14:24:08,356 [Worker-36: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2026-03-12 14:24:08,376 [Worker-36: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 14:25:01,411 [Worker-44: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 14:25:01,422 [Worker-44: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2026-03-12 14:25:01,433 [Worker-44: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\shop\src\test\resources
+2026-03-12 14:46:55,149 [Worker-23: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 14:46:55,166 [Worker-23: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2026-03-12 14:46:55,186 [Worker-23: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 14:50:43,876 [Worker-52: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 14:50:43,891 [Worker-52: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2026-03-12 14:50:43,909 [Worker-52: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 15:03:05,407 [Worker-53: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 15:03:05,419 [Worker-53: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2026-03-12 15:03:05,432 [Worker-53: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 15:07:24,424 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 15:07:24,443 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2026-03-12 15:07:24,465 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 15:11:56,776 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 15:11:56,790 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 26 resources from src\main\resources to target\classes
+2026-03-12 15:11:56,808 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 15:12:50,256 [Worker-55: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 15:12:50,268 [Worker-55: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 15:12:50,274 [Worker-55: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 15:14:04,798 [Worker-54: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 15:14:04,807 [Worker-54: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 15:14:04,813 [Worker-54: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 15:20:06,574 [Worker-48: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 15:20:06,586 [Worker-48: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 15:20:06,592 [Worker-48: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 15:20:59,572 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 15:20:59,586 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 15:20:59,602 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 15:21:30,904 [Worker-52: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 15:21:30,920 [Worker-52: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 15:21:30,928 [Worker-52: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 15:25:04,914 [Worker-52: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 15:25:04,923 [Worker-52: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 15:25:04,930 [Worker-52: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 15:25:55,886 [Worker-55: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 15:25:55,899 [Worker-55: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 15:25:55,915 [Worker-55: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 15:27:39,927 [Worker-48: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 15:27:39,940 [Worker-48: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 15:27:39,945 [Worker-48: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 15:27:44,994 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 15:27:45,007 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 15:27:45,015 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 15:29:36,354 [Worker-55: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 15:29:36,363 [Worker-55: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 15:29:36,370 [Worker-55: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 15:33:41,199 [Worker-52: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 15:33:41,212 [Worker-52: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 15:33:41,219 [Worker-52: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 15:36:05,640 [Worker-52: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 15:36:05,650 [Worker-52: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 29 resources from src\main\resources to target\classes
+2026-03-12 15:36:05,730 [Worker-52: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 15:41:43,566 [Worker-59: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 15:41:43,583 [Worker-59: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 29 resources from src\main\resources to target\classes
+2026-03-12 15:41:43,602 [Worker-59: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 15:44:36,201 [Worker-58: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 15:44:36,213 [Worker-58: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 29 resources from src\main\resources to target\classes
+2026-03-12 15:44:36,235 [Worker-58: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 15:45:26,437 [Worker-30: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 15:45:26,452 [Worker-30: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 29 resources from src\main\resources to target\classes
+2026-03-12 15:45:26,473 [Worker-30: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 15:45:39,744 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 15:45:39,759 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 29 resources from src\main\resources to target\classes
+2026-03-12 15:45:39,776 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 15:48:35,247 [Worker-60: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 15:48:35,270 [Worker-60: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 29 resources from src\main\resources to target\classes
+2026-03-12 15:48:35,291 [Worker-60: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 15:49:19,682 [Worker-60: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 15:49:19,697 [Worker-60: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 29 resources from src\main\resources to target\classes
+2026-03-12 15:49:19,717 [Worker-60: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 16:03:28,366 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 16:03:28,387 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 29 resources from src\main\resources to target\classes
+2026-03-12 16:03:28,415 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 16:06:17,734 [Worker-66: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 16:06:17,748 [Worker-66: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 29 resources from src\main\resources to target\classes
+2026-03-12 16:06:17,765 [Worker-66: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 16:10:26,622 [Worker-66: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 16:10:26,635 [Worker-66: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 29 resources from src\main\resources to target\classes
+2026-03-12 16:10:26,653 [Worker-66: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 16:11:30,387 [Worker-62: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 16:11:30,403 [Worker-62: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 29 resources from src\main\resources to target\classes
+2026-03-12 16:11:30,432 [Worker-62: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 16:12:53,788 [Worker-65: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 16:12:53,801 [Worker-65: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 29 resources from src\main\resources to target\classes
+2026-03-12 16:12:53,823 [Worker-65: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 16:13:38,357 [Worker-64: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 16:13:38,376 [Worker-64: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 29 resources from src\main\resources to target\classes
+2026-03-12 16:13:38,405 [Worker-64: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 16:14:13,261 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 16:14:13,273 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 29 resources from src\main\resources to target\classes
+2026-03-12 16:14:13,294 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 16:15:10,678 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 16:15:10,696 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 29 resources from src\main\resources to target\classes
+2026-03-12 16:15:10,723 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 16:19:45,642 [Worker-66: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 16:19:45,657 [Worker-66: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 29 resources from src\main\resources to target\classes
+2026-03-12 16:19:45,682 [Worker-66: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 16:20:28,918 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 16:20:28,930 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 16:20:28,938 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 16:25:17,964 [Worker-67: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 16:25:17,977 [Worker-67: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 16:25:17,984 [Worker-67: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 16:25:38,616 [Worker-66: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 16:25:38,630 [Worker-66: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 16:25:38,634 [Worker-66: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 16:35:07,482 [Worker-65: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 16:35:07,510 [Worker-65: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2026-03-12 16:35:07,534 [Worker-65: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 16:36:37,635 [Worker-62: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 16:36:37,649 [Worker-62: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2026-03-12 16:36:37,670 [Worker-62: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 16:42:36,066 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 16:42:36,084 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2026-03-12 16:42:36,110 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 16:44:52,182 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 16:44:52,196 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2026-03-12 16:44:52,222 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 16:48:00,097 [Worker-70: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 16:48:00,115 [Worker-70: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2026-03-12 16:48:00,140 [Worker-70: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 16:50:12,128 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 16:50:12,138 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2026-03-12 16:50:12,160 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 17:03:32,400 [Worker-65: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 17:03:32,417 [Worker-65: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2026-03-12 17:03:32,437 [Worker-65: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 17:04:25,601 [Worker-65: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 17:04:25,616 [Worker-65: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2026-03-12 17:04:25,639 [Worker-65: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 17:07:59,123 [Worker-65: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 17:07:59,138 [Worker-65: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2026-03-12 17:07:59,174 [Worker-65: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 17:08:34,543 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 17:08:34,552 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2026-03-12 17:08:34,570 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 17:09:04,931 [Worker-73: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 17:09:04,944 [Worker-73: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2026-03-12 17:09:04,971 [Worker-73: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 17:10:10,344 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 17:10:10,357 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2026-03-12 17:10:10,381 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 17:10:28,836 [Worker-62: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 17:10:28,848 [Worker-62: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2026-03-12 17:10:28,864 [Worker-62: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 17:11:21,803 [Worker-70: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 17:11:21,816 [Worker-70: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2026-03-12 17:11:21,834 [Worker-70: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 17:11:36,431 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 17:11:36,454 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2026-03-12 17:11:36,481 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 17:46:41,836 [Worker-62: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 17:46:41,852 [Worker-62: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 17:46:41,857 [Worker-62: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 17:47:12,195 [Worker-62: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 17:47:12,215 [Worker-62: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 17:47:12,220 [Worker-62: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 17:47:29,509 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 17:47:29,523 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 17:47:29,528 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 17:51:15,596 [Worker-62: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 17:51:15,609 [Worker-62: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 17:51:15,617 [Worker-62: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 17:51:35,201 [Worker-77: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 17:51:35,214 [Worker-77: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 17:51:35,224 [Worker-77: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources
+2026-03-12 17:57:23,356 [Worker-62: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-12 17:57:23,371 [Worker-62: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 17:57:23,380 [Worker-62: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\git_repository\practice\src\test\resources

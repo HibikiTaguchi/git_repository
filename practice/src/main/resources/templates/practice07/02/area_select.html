@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Spring 練習問題 基礎編 Practice7-02</h1>
+
+データベース操作(外部参照) 外部キーによる条件検索
+<hr>
+<p>
+<h4>果物と産地の情報 検索したい地域を選んでください。</h4>
+<form th:action="@{/fruits/select/area/result}" method="get">
+<table>
+<tr>
+<td>地域名</td>
+<td>
+<select name="areaId">
+	<option th:each="area: ${areaList}" th:value="${area.areaId}" th:text="${area.areaName}"></option>
+</select>
+</td>
+</tr>
+</table>
+<input type="submit" value="検索"/>
+</form>
+</p>
+</body>
+</html>

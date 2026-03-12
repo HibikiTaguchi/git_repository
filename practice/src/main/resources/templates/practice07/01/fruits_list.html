@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Spring 練習問題 基礎編 Practice7-01</h1>
+
+データベース操作(外部参照) 全件検索
+<hr>
+<p>
+<h4>果物と産地の一覧</h4>
+<table>
+<tr>
+<td>ID</td>
+<td>名前</td>
+<td>主な産地</td>
+<td>産地の詳細</td>
+</tr>
+<tr th:each="fruitArea: ${faList}">
+<td th:text="${fruitArea.fruitId}"></td>
+<td th:text="${fruitArea.fruitName}"></td>
+<td th:text="${fruitArea.area.areaName}"></td>
+<td th:text="${fruitArea.area.detail}"></td>
+</tr>
+</table>
+</p>
+
+</body>
+</html>

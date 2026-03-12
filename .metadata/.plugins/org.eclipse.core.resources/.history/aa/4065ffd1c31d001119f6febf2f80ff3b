@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Spring 練習問題 基礎編 Practice6-05</h1>
+
+データベース操作 登録
+<hr>
+<p>
+<h4>果物情報 登録</h4>
+<form action="/fruits/add/complete" method="post">
+<table>
+<tr>
+<td>フルーツ名</td><td><input type="text" name="fruitName"/></td>
+</tr>
+<tr>
+<td>旬の季節</td>
+<td><select name="seasonMonth">
+<option value="1">1月</option>
+<option value="2">2月</option>
+<option value="3">3月</option>
+<option value="4">4月</option>
+<option value="5">5月</option>
+<option value="6">6月</option>
+<option value="7">7月</option>
+<option value="8">8月</option>
+<option value="9">9月</option>
+<option value="10">10月</option>
+<option value="11">11月</option>
+<option value="12">12月</option>
+<option value="13">通年</option>
+</select>
+</td>
+</tr>
+
+</table>
+<input type="submit" value="登録"/>
+</form>
+</p>
+</body>
+</html>
