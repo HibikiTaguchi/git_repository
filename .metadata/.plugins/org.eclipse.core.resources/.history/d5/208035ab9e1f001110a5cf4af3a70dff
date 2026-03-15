@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Spring 練習問題 基礎編 Practice8-03</h1>
+
+データベース操作(JPQL) @Queryの利用
+<hr>
+<p>
+<h4>フルーツショップ 検索結果</h4>
+<table>
+<tr>
+<td>ID</td>
+<td>名前</td>
+<td>価格</td>
+</tr>
+<tr>
+<td>11</td>
+<td>シャインマスカット(大粒 1房)</td>
+<td>2580</td>
+</tr>
+<tr>
+<td>15</td>
+<td>マスカット・オブ・アレキサンドリア(大粒 1房)</td>
+<td>4500</td>
+</tr>
+<tr>
+<td>22</td>
+<td>巨峰(1kg 3房)</td>
+<td>4750</td>
+</tr>
+<tr>
+<td>21</td>
+<td>デラウェア(2kg 15房)</td>
+<td>4800</td>
+</tr>
+</table>
+</p>
+
+</body>
+</html>

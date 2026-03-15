@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Spring 練習問題 基礎編 Practice8-04</h1>
+
+データベース操作(JPQL) @Queryの利用
+<hr>
+<p>
+<h4>属する商品の多い順に種別一覧を表示</h4>
+<table>
+<tr>
+<td>種別ID</td>
+<td>種別名</td>
+</tr>
+<tr th:each="type:${result}">
+<td th:text="${type.typeId}"></td>
+<td th:text="${type.typeName}"></td>
+</tr>
+</table>
+</p>
+</body>
+</html>

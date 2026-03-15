@@ -1,0 +1,10 @@
+package jp.co.sss.practice.p08.q03.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class Practice0803Controller {
+	@Autowired
+	FruitsShopItemsRepository fsiRepo;
+}

@@ -1,0 +1,9 @@
+package jp.co.sss.practice.p08.entity;
+
+import jakarta.persistence.Entity;
+
+@Entity
+@Table(name = "type")
+public class Type {
+	
+}

@@ -1,0 +1,12 @@
+package jp.co.sss.practice.p09.q01.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class Practice0901Controller {
+	@GetMapping("/body_temp/input")
+	public String showInput(@ModelAttribute BodyTempForm bodyTempForm) {
+		return "practice09/01/bt_input";
+	}
+}

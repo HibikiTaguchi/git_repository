@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Spring 練習問題 基礎編 Practice8-03</h1>
+
+データベース操作(JPQL) @Queryの利用
+<hr>
+
+<p>
+<h4>フルーツショップ 商品検索 種別を選択し、商品の価格帯を入力してください。</h4>
+<form th:action="@{/fruits_shop/query/result}" method="get">
+<table>
+<tr>
+<td>種別名</td>
+<td>
+	<select name="typeId">
+		<option th:each="type: ${types}" th:value="@{type.tyepId}" th:text="type.typeName"></option>
+	</select>
+</td>
+</tr>
+<tr>
+<td>価格帯</td>
+<td>
+	<input type="number" name="minPrice" />円以上
+	<input type="number" name="maxPrice" />円以下
+</td>
+</tr>
+
+</table>
+<input type="submit" value="検索"/>
+</form>
+</p>
+</body>
+</html>

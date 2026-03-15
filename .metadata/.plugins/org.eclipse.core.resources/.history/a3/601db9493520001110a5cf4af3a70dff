@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Spring 練習問題 基礎編 Practice9-01</h1>
+
+入力チェックの利用
+<hr>
+<p>
+<h4>入力チェック 異常なし</h4>
+体温:<span th:text="${bodyTempForm.bodyTemp}"></span><br>
+正常範囲外の体温です。早急に病院に行ってください。
+</p>
+
+</body>
+</html>

@@ -30,7 +30,7 @@ public class Practice0702Controller {
 		Area area = new Area();
 		area = areaRepo.getReferenceById(areaId);
 		model.addAttribute("areaName", area.getAreaName());
-		List<FruitsArea> faList = faRepo.findByAreaIdOrderByFruitIdAsc(areaId);
+		List<FruitsArea> faList = faRepo.findByAreaOrderByFruitIdAsc(area);
 		model.addAttribute("faList", faList);
 		return "practice07/02/fruits_list";
 	}

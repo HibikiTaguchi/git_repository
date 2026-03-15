@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Spring 練習問題 基礎編 Practice8-01</h1>
+
+データベース操作(JPQL) 全件検索
+<hr>
+<p>
+<h4>フルーツショップの商品一覧</h4>
+<table>
+<tr>
+<td>ID</td>
+<td>名前</td>
+<td>価格</td>
+<td>種別</td>
+</tr>
+<tr th:each="item: ${allItems}">
+<td th:text="${item.itemId}"></td>
+<td th:text="${item.itemName}"></td>
+<td th:text="${item.Price}"></td>
+<td th:text="${item.type.typeId}"></td>
+</tr>
+</table>
+</p>
+
+</body>
+</html>

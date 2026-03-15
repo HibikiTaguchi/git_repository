@@ -1,0 +1,16 @@
+package jp.co.sss.practice.p09.q01.form;
+
+import jakarta.validation.constraints.DecimalMax;
+import jakarta.validation.constraints.DecimalMin;
+
+public class BodyTempForm {
+	@NotNull
+	@DecimalMin(value = "30.0")
+	@DecimalMax(value = "45.0")
+	private Double bodyTemp;
+	
+	@NotNull
+	private Date inputDate;
+
+	
+}
