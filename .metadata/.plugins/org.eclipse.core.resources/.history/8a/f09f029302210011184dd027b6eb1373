@@ -1,0 +1,14 @@
+package jp.co.sss.practice.p10.q01.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class Practice1001Controller {
+	@GetMapping("/personal_info/input")
+	public String showAndDoInput(@ModelAttribute PersonalInfoForm personalInfoForm) {
+		return "practice10/01/info_input";
+	}
+	
+	
+}

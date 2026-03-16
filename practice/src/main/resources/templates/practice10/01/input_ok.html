@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body th:object="${personalInfoForm}">
+<h1>Spring 練習問題 基礎編 Practice10-01</h1>
+
+入力チェック、メッセージ出力の利用
+<hr>
+<p>
+<h4>入力チェック 異常なし</h4>
+
+メッセージ:<span th:text="#{message.thankyou}"></span><br>
+<br>
+郵便番号:<span th:field="*{postalCode}"></span><br>
+都道府県名:<span th:field="*{prefName}"></span><br>
+年齢:<span th:field="*{age}"></span><br>
+
+</p>
+
+</body>
+</html>

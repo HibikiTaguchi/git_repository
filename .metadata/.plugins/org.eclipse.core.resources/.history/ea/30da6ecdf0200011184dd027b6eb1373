@@ -1,0 +1,5 @@
+package jp.co.sss.shop.filter;
+
+public class Message02Filter {
+
+}

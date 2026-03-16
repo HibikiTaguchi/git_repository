@@ -1,0 +1,28 @@
+package jp.co.sss.practice.p10.q01.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import jakarta.validation.Valid;
+import jp.co.sss.practice.p10.q01.form.PersonalInfoForm;
+
+@Controller
+public class Practice1001Controller {
+	@GetMapping("/personal_info/input")
+	public String showAndDoInput(@ModelAttribute PersonalInfoForm personalInfoForm) {
+		return "practice10/01/info_input";
+	}
+	
+	@PostMapping("/personal_info/check")
+	public String checkAndSelectResult(
+	 @Valid @ModelAttribute PersonalInfoForm personalInfoForm,
+	  BindingResult result) {
+		if (result.hasErrors()) {
+			return "practice10/01/info_input";
+		}
+		return "practice10/01/input_ok";
+	}
+}

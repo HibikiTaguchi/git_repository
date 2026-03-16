@@ -1,0 +1,5 @@
+typeMismatch.java.lang.Integer={0}には数値を入力してください。 
+prefName=都道府県名 
+postalCode=郵便番号 
+age=年齢 
+message.thankyou=情報を入力していただきありがとうございました！

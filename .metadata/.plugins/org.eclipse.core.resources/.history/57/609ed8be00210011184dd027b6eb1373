@@ -1,0 +1,6 @@
+ValidationMessages.propertiesjakarta.validation.constraints.Max.message={0}には{value}以下の値を入力してください。 
+jakarta.validation.constraints.Min.message={0}には{value}以上の値を入力してください。 
+jakarta.validation.constraints.Pattern.message={0}は正しい形式で入力してください。 
+jakarta.validation.constraints.Size.message={0}は{min}文字以上、{max}文字以内で入力してくだ 
+さい。 
+jakarta.validation.constraints.NotBlank.message={0}は必須入力です。

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Spring 練習問題 基礎編 Practice10-01</h1>
+
+入力チェック、メッセージ出力の利用
+<hr>
+<p>
+<h4>入力チェック 異常なし</h4>
+
+メッセージ:<span>情報を入力していただきありがとうございました！</span><br>
+<br>
+郵便番号:<span>271-0092</span><br>
+都道府県名:<span>千葉県</span><br>
+年齢:<span>23</span><br>
+
+</p>
+
+</body>
+</html>

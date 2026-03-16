@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Spring 練習問題 基礎編 Practice10-01</h1>
+
+入力チェック、メッセージ出力の利用
+<hr>
+<p>
+<h4>下記の項目を入力し送信ボタンをクリックしてください。</h4>
+<form action="/personal_info/check" method="post">
+<table>
+<tr><td>郵便番号</td><td><input type="text" id="postalCode" name="postalCode" value="" /></td><td>形式:nnn-nnnn [n:0-9の半角数字]</td></tr>
+<tr></tr>
+<tr><td>都道府県名</td><td><input type="text" id="prefName" name="prefName" value=""/></td><td>形式:3文字以上、4文字以下 入力例:千葉県</td></tr>
+<tr></tr>
+<tr><td>年齢</td><td><input type="text" id="age" name="age" value=""/></td><td>形式:半角数字 18歳以上120歳以下</td></tr>
+<tr></tr>
+</table>
+<input type="submit" value="送信" />
+</form>
+</p>
+
+</body>
+</html>

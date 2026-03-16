@@ -1,0 +1,39 @@
+package jp.co.sss.practice.p10.q01.form;
+
+public class PersonalInfoForm {
+	@NotBlank
+	@Pattern(regexp = "^[0-9]{3}-[0-9]{4}$")
+	private String postalCode;
+	
+	@NotBlank
+	@Size(min = 3, max = 4)
+	private String prefName;
+	
+	@Min(18)
+	@Max(120)
+	private Integer age;
+
+	public String getPostalCode() {
+		return postalCode;
+	}
+
+	public void setPostalCode(String postalCode) {
+		this.postalCode = postalCode;
+	}
+
+	public String getPrefName() {
+		return prefName;
+	}
+
+	public void setPrefName(String prefName) {
+		this.prefName = prefName;
+	}
+
+	public Integer getAge() {
+		return age;
+	}
+
+	public void setAge(Integer age) {
+		this.age = age;
+	}
+}
