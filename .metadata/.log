@@ -3502,3 +3502,25 @@ java.lang.IllegalStateException
 
 !ENTRY mergedoc.encoding 2 0 2026-03-16 16:21:04.696
 !MESSAGE リソース '/practice/src/main/resources/templates/messages.properties' が存在しません。
+!SESSION 2026-03-17 08:46:55.825 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2026-03-17 08:46:58.736
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY mergedoc.encoding 2 0 2026-03-17 12:07:54.466
+!MESSAGE リソース '/shop/src/main/resources/templates/common/layout_view.html' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2026-03-17 12:07:54.469
+!MESSAGE リソース '/shop/src/main/resources/templates/common/layout_view.html' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2026-03-17 12:07:54.471
+!MESSAGE リソース '/shop/src/main/resources/templates/common/layout_view.html' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2026-03-17 12:07:54.472
+!MESSAGE リソース '/shop/src/main/resources/templates/common/layout_view.html' が存在しません。

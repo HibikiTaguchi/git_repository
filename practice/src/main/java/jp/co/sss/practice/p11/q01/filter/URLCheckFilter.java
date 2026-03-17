@@ -17,6 +17,14 @@ public class URLCheckFilter extends HttpFilter {
 	 HttpServletResponse response, FilterChain chain) 
 	  throws IOException, ServletException{
 		StringBuffer url = request.getRequestURL();
-		
+		String strUrl = url.toString();
+		if (strUrl.contains("filter")) {
+			request.setAttribute("url", strUrl);
+			System.out.println(strUrl);
+			if (strUrl.endsWith("abc")) {
+				response.sendRedirect("practice11/01/filter_redirect.html");
+			}
+		}
+		chain.doFilter(request, response);
 	}
 }
