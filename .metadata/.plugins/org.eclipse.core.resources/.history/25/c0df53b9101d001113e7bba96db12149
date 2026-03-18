@@ -1,8 +1,0 @@
-package jp.co.sss.practice.p06.q03.controller;
-
-import org.springframework.stereotype.Controller;
-
-@Controller
-public class Practice0603Controller {
-
-}

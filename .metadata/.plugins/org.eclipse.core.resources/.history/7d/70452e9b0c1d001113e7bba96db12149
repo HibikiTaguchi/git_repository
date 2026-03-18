@@ -1,7 +1,0 @@
-package jp.co.sss.practice.p06.bean;
-
-import java.io.Serializable;
-
-public class FruitsSeasonBean implements Serializable {
-
-}
