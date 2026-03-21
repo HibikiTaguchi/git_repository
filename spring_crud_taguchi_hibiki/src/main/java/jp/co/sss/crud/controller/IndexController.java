@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -36,7 +37,8 @@ public class IndexController {
 		if (result.hasErrors()) {
 			return "index";
 		}
-		
+		//フォームの内容をリクエストスコープに保存
+		session.setAttribute("loginForm", form);
 		//EmployeeRepositoryのID検索メソッドを使って入力されたIDの従業員情報を取得
 		int id = form.getEmpId();
 		Employee employee = new Employee();
@@ -50,13 +52,17 @@ public class IndexController {
 		if(inputPass.equals(truePass)) {
 			//入力値と登録されたパスワードが一致したのでログイン処理を行う
 			System.out.println("ログイン");
-			//全件表示のための情報を取得
-			model.addAttribute("empList", employeeRepository.findAll());
-			return "list/list";
+			session.setAttribute("user", employee);
+			return "redirect:/list";
 		} else {
 			//パスワード不一致のため再度ログイン画面へ
 			System.out.println("ログイン失敗");
 			return "index";
 		}
+	}
+	
+	@GetMapping("/logout")
+	public String logout() {
+		return "redirect:/";
 	}
 }

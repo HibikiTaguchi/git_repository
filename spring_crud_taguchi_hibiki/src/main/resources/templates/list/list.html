@@ -22,12 +22,12 @@
 	
 	<!-- ***検索結果が０件の場合*** -->
 	<!-- ***falseを書き換え、表示内容を記述すること*** -->
-	<th:block th:if="false">
+	<th:block th:if="${empList.isEmpty()}">
 		<div class="message">
 	<!--以下に該当する社員が存在しないときのメッセージを記述する -->
 	 	<p class="back_to_top_message" th:text="#{message.employeeNotExist}"></p>
 	 <!--以下に一覧表示に戻るリンクを記述する -->
-		 <p class="back_to_top_link" th:href="@{/login}"></p>
+		 <p class="back_to_top_link"><a th:href="@{/list}">一覧表示に戻る</a></p>
 		</div>
 	</th:block>
 	<!-- ***検索結果が０件の場合 ここまで*** -->
@@ -59,11 +59,13 @@
 		<tr th:each="emp:${empList}">
 			<td th:text="${emp.empId}"></td>
 			<td th:text="${emp.empName}"></td>
-			<td th:text="${emp.gender}"></td>
+			<td th:if="${emp.gender == 1}">男性</td>
+			<td th:if="${emp.gender == 2}">女性</td>
 			<td th:text="${emp.address}"></td>
-			<td th:text="${emp.birthday}"></td>
-			<td th:text="${emp.authority}"></td>
-			<td th:text="${emp.department.deptId}"></td>
+			<td th:text="${#dates.format(emp.birthday, 'yyyy/MM/dd')}"></td>
+			<td th:if="${emp.authority == 1}">一般</td>
+			<td th:if="${emp.authority == 2}">管理者</td>
+			<td th:text="${emp.department.deptName}"></td>
 			<td>
 				<form th:action="@{/change/} + ${emp.empId}" method="post">
 					<input type="submit" value="変更">
@@ -71,7 +73,7 @@
 			</td>
 			<td>
 				<form th:action="@{/delete/} + ${emp.empId}" method="post">
-					<input type="submit" value="変更">
+					<input type="submit" value="削除">
 				</form>
 			</td>
 		</tr>

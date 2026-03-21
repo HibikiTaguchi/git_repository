@@ -4,15 +4,22 @@ import java.util.Date;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.SequenceGenerator;
 import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "employee")
 public class Employee {
 	@Id
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = 
+	"seq_emp_gen") 
+	 @SequenceGenerator(name = "seq_emp_gen", sequenceName = 
+	"seq_emp", allocationSize = 1) 
 	private Integer empId;
 
 	@Column
