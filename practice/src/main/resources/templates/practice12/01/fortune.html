@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Spring 練習問題 基礎編 Practice12-01</h1>
+
+Thyemeleaf
+<hr>
+<p>
+<h4>本日のおみくじ</h4>
+今日の日付:<span th:text="${#dates.format(today, 'yyyy/MM/dd')}"></span><br>
+おみくじの結果:
+
+<th:block th:switch="${fortuneNum}">
+	<span th:case="1">大吉</span>
+	<span th:case="2">中吉</span>
+	<span th:case="3">小吉</span>
+	<span th:case="4">凶</span>
+	<span th:case="5">大凶</span>
+</th:block>
+
+
+
+</p>
+
+</body>
+</html>

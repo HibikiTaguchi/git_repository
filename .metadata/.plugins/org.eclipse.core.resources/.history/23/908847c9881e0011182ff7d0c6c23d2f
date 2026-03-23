@@ -1,7 +1,0 @@
-package jp.co.sss.practice.p08.entity;
-
-@Entity
-@Table(name = "type")
-public class Type {
-	
-}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Spring 練習問題 基礎編 Practice12-02</h1>
+
+Thyemeleaf
+<hr>
+<p>
+<h4>訪れた場所一覧</h4>
+
+<th:block th:unless="${destPrefs == null}">	
+訪れた場所の数:<span th:text="${#arrays.length(destPrefs)}"></span><br>
+
+<table>
+<tr>
+<td>訪れた場所:</td>	
+<td th:each="pref: ${destPrefs}" th:text="${pref}"></td>	
+</tr>
+</table>
+<th:block th:if="${#arrays.length(destPrefs) >= 7}">
+<p>旅行好きですね。</p>
+</th:block>
+</th:block>
+
+<th:block th:if="${destPrefs == null}">
+	訪れた場所はありません。
+</th:block>
+
+</p>
+
+</body>
+</html>

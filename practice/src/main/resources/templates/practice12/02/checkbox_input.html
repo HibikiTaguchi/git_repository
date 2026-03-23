@@ -1,0 +1,63 @@
+
+
+<!DOCTYPE html>
+<html><head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Spring 練習問題 基礎編 Practice12-02</h1>
+
+Thymeleaf
+<hr>
+<p>
+<h4>入力値による表示の制御</h4>
+訪れたことのある都道府県名にチェックをいれて、送信ボタンをクリックしてください。
+<form th:action="@{/checkbox/result}" method="post">
+都道府県名:
+  <div>
+    <input type="checkbox" name="destPrefs" value="北海道" />
+    <label >北海道</label>
+  </div>
+  <div>
+    <input type="checkbox" name="destPrefs" value="東京" />
+    <label >東京</label>
+  </div>
+  <div>
+    <input type="checkbox" name="destPrefs" value="愛知" />
+    <label >愛知</label>
+  </div>
+  <div>
+    <input type="checkbox" name="destPrefs" value="大阪" />
+    <label >大阪</label>
+  </div>
+  <div>
+    <input type="checkbox" name="destPrefs" value="京都" />
+    <label >京都</label>
+  </div>
+  <div>
+    <input type="checkbox" name="destPrefs" value="石川" />
+    <label >石川</label>
+  </div>
+  <div>
+    <input type="checkbox" name="destPrefs" value="宮城" />
+    <label >宮城</label>
+  </div>
+  <div>
+    <input type="checkbox" name="destPrefs" value="広島" />
+    <label >広島</label>
+  </div>
+  <div>
+    <input type="checkbox" name="destPrefs" value="福岡" />
+    <label >福岡</label>
+  </div>
+  <div>
+    <input type="checkbox" name="destPrefs" value="沖縄" />
+    <label >沖縄</label>
+  </div>
+<input type="submit" value="送信" />
+</form>
+</p>
+
+</body>
+</html>

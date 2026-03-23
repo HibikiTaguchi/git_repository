@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" 
+ th:replace="~{practice12/03/common/layout :: layout(~{::title},~{::main})}">
+<head>
+<meta charset="UTF-8">
+<title>最初の画面</title>
+</head>
+<main>
+<p>
+<h4>レイアウト機能の活用 最初の画面</h4>
+<a th:href="@{/layout/second}">２番目の画面へ</a>
+</p>
+</main>
+</body>
+</html>

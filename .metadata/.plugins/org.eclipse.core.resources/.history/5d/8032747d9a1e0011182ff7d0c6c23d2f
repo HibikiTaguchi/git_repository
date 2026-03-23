@@ -1,5 +1,0 @@
-package jp.co.sss.practice.p08.repository;
-
-public interface FruitsShopItemRepository {
-
-}

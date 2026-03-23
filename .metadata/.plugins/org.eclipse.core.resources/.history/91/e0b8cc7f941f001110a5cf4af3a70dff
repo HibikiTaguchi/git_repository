@@ -1,9 +1,0 @@
-package jp.co.sss.practice.p08.repository;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import jp.co.sss.practice.p08.entity.FruitsShopItems;
-
-public interface FruitsShopItemsRepository extends JpaRepository<FruitsShopItems,Integer> {
-
-}
