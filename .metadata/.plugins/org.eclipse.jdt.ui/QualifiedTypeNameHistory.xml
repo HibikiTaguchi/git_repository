@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="jp.co.sss.shop.entity.Item"/>
-    <fullyQualifiedTypeName name="jp.co.sss.shop.repository.ItemWithCategoryRepository"/>
-    <fullyQualifiedTypeName name="jp.co.sss.shop.entity.ItemWithCategory"/>
-    <fullyQualifiedTypeName name="jp.co.sss.shop.entity.Category"/>
-    <fullyQualifiedTypeName name="jp.co.sss.practice.p06.repository.FruitsSeasonRepository"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
-    <fullyQualifiedTypeName name="org.hibernate.service.internal.SessionFactoryServiceRegistryBuilderImpl"/>
     <fullyQualifiedTypeName name="jp.co.sss.practice.p06.entity.FruitsSeason"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.BeanUtils"/>
     <fullyQualifiedTypeName name="jp.co.sss.practice.p06.bean.FruitsSeasonBean"/>
     <fullyQualifiedTypeName name="jp.co.sss.practice.p07.repository.FruitsAreaRepository"/>
     <fullyQualifiedTypeName name="jp.co.sss.practice.p07.entity.FruitsArea"/>
@@ -48,16 +40,24 @@
     <fullyQualifiedTypeName name="jp.co.sss.crud.util.JPQLConstant"/>
     <fullyQualifiedTypeName name="org.springframework.data.repository.query.Param"/>
     <fullyQualifiedTypeName name="jakarta.persistence.SequenceGenerator"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
-    <fullyQualifiedTypeName name="jakarta.validation.Valid"/>
     <fullyQualifiedTypeName name="org.springframework.validation.BindingResult"/>
-    <fullyQualifiedTypeName name="jp.co.sss.crud.form.EmployeeForm"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
-    <fullyQualifiedTypeName name="jp.co.sss.crud.entity.Employee"/>
     <fullyQualifiedTypeName name="jp.co.sss.crud.repository.EmployeeRepository"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="jakarta.validation.Valid"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+    <fullyQualifiedTypeName name="java.beans.Beans"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="jp.co.sss.crud.util.BeanCopy"/>
+    <fullyQualifiedTypeName name="jp.co.sss.crud.form.EmployeeForm"/>
+    <fullyQualifiedTypeName name="jp.co.sss.crud.bean.EmployeeBean"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="jp.co.sss.crud.repository.DepartmentRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.BeanUtils"/>
+    <fullyQualifiedTypeName name="jp.co.sss.crud.entity.Employee"/>
+    <fullyQualifiedTypeName name="jp.co.sss.crud.entity.Department"/>
 </qualifiedTypeNameHistroy>

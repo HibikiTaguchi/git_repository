@@ -10,25 +10,27 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import jakarta.validation.Valid;
+import jp.co.sss.crud.bean.EmployeeBean;
+import jp.co.sss.crud.entity.Department;
 import jp.co.sss.crud.entity.Employee;
 import jp.co.sss.crud.form.EmployeeForm;
+import jp.co.sss.crud.repository.DepartmentRepository;
 import jp.co.sss.crud.repository.EmployeeRepository;
-import jp.co.sss.crud.util.BeanCopy;
 
 @Controller
 public class UpdateController {
 	@Autowired
 	EmployeeRepository empRepo;
+	@Autowired
+	DepartmentRepository deptRepo;
 	
 	@PostMapping("/update/{empId}")
 	public String showUpdateInput(@PathVariable Integer empId, Model model) {
-		EmployeeForm userForm = new EmployeeForm();
 		Employee emp = empRepo.getReferenceById(empId);
-		BeanUtils.copyProperties(emp, userForm);
-		userForm.setDeptId(emp.getDepartment().getDeptId());
-		//フォームにdeptIdが格納できているかデバッグ
-		System.out.println(userForm.getDeptId());
-		model.addAttribute("userForm", userForm);
+		EmployeeBean empBean = new EmployeeBean();
+		BeanUtils.copyProperties(emp, empBean);
+		System.out.println(empBean.getDeptId());
+		model.addAttribute("empBean", empBean);
 		return "update/update_input";
 	}
 	
@@ -41,22 +43,33 @@ public class UpdateController {
 		//デバッグ　フォームに値が入っているか
 		System.out.println(userForm.getEmpName());
 		System.out.println(userForm.getDeptId());
-		Employee employee = BeanCopy.copyFormToEmployee(userForm);
-		System.out.println(employee.getDepartment().getDeptName());
-		model.addAttribute("employee", employee);
+		//入力されたフォームの値をBeanにコピー
+		EmployeeBean empBean = new EmployeeBean();
+		BeanUtils.copyProperties(userForm, empBean);
+		System.out.println(empBean.getDeptId());
+		//フォームのdeptIdから部署名を取得
+		Integer deptId = userForm.getDeptId();
+		Department dept = deptRepo.getReferenceById(deptId);
+		String deptName = dept.getDeptName();
+		model.addAttribute("empBean", empBean);
+		model.addAttribute("deptName", deptName);
 		return "update/update_check";
 	}
 	
 	@PostMapping("/update/doUpdate")
-	public String doUpdate(Employee employee) {
-		empRepo.save(employee);
+	public String doUpdate(EmployeeBean empBean) {
+		Employee emp = new Employee();
+		BeanUtils.copyProperties(empBean, emp);
+		Department dept = new Department();
+		dept.setDeptId(empBean.getDeptId());
+		emp.setDepartment(dept);
+		empRepo.save(emp);
 		return "update/update_complete";
 	}
 	
 	@PostMapping("/update/back")
-	public String backToInputWithInfo(Employee employee, Model model) {
-		EmployeeForm form = new EmployeeForm();
-		model.addAttribute("employeeForm", BeanCopy.copyEntityToForm(employee, form));
+	public String backToInputWithInfo(EmployeeBean empBean, Model model) {
+		model.addAttribute("empBean", empBean);
 		return "update/update_input";
 	}
 }
