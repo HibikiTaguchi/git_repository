@@ -1,5 +1,8 @@
 package jp.co.sss.crud.controller;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -25,22 +28,42 @@ public class IndexController {
 	@Autowired
 	HttpSession session;
 
+	boolean isIdExist = true;
+	
 	@RequestMapping(path = "/", method = RequestMethod.GET)
-	public String index(@ModelAttribute LoginForm loginForm) {
+	public String index(@ModelAttribute LoginForm loginForm, Model model) {
 		session.invalidate();
+		model.addAttribute("isIdExist", isIdExist);
 		return "index";
 	}
 	
 	@PostMapping("/login")
 	public String login(@Valid @ModelAttribute LoginForm form, BindingResult result, HttpSession session, Model model) {
+		session.removeAttribute("loginForm");
 		//ログイン判定の前に入力値チェック
 		if (result.hasErrors()) {
+			model.addAttribute("isIdExist", isIdExist);
 			return "index";
 		}
-		//フォームの内容をリクエストスコープに保存
+		//フォームの内容をセッションコープに保存
 		session.setAttribute("loginForm", form);
 		//EmployeeRepositoryのID検索メソッドを使って入力されたIDの従業員情報を取得
 		int id = form.getEmpId();
+		List<Integer> empIdList = new ArrayList<Integer>();
+		for (Employee emp : employeeRepository.findAll()) {
+			 empIdList.add(emp.getEmpId());
+		}
+		int count = 0;
+		for (Integer empId : empIdList) {
+			if (empId == form.getEmpId()) {
+				count++;
+			}
+		}
+		if (count == 0) {
+			isIdExist = false;
+			model.addAttribute("isIdExist", isIdExist);
+			return "index";
+		}
 		Employee employee = new Employee();
 		employee = employeeRepository.getReferenceById(id);
 		//フォームに入力されたパスワードを取得
@@ -57,12 +80,14 @@ public class IndexController {
 		} else {
 			//パスワード不一致のため再度ログイン画面へ
 			System.out.println("ログイン失敗");
+			model.addAttribute("isIdExist", isIdExist);
 			return "index";
 		}
 	}
 	
 	@GetMapping("/logout")
-	public String logout() {
+	public String logout(HttpSession session) {
+		session.invalidate();
 		return "redirect:/";
 	}
 }

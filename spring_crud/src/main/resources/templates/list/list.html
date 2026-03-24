@@ -13,7 +13,7 @@
     <!-- フィルターの処理により、当該Thymeleaf処理完了後にログイン画面にリダイレクトする。 -->
 	<!-- ***管理者権限表示*** -->
 	<!-- ***trueを書き換えること*** -->
-	<th:block th:if="true">
+	<th:block th:if="${true}">
 		<div class="regist_link">
 			<a th:href="@{/regist/input}">新規社員登録</a>
 		</div>
@@ -35,7 +35,7 @@
 	<!-- ***検索結果がある場合*** -->
 	<!-- Employeeテーブルからclass名を指定すること。 -->
 	<!-- ***trueを書き換えること*** -->
-	<table class="list_table" th:if="true">
+	<table class="list_table" th:if="${empList != null}">
 		<tr>
 			<th>社員ID</th>
 			<th>社員名</th>

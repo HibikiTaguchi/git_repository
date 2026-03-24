@@ -8,7 +8,7 @@
 		<h3>社員変更入力画面</h3>
 		<!-- class名とボタンの変更は行なわないこと。-->
     <div class="update">
-      <form th:action="@{/update/check}" method="post" th:object="${empBean}">
+      <form th:action="@{/update/check}" method="post" th:object="${employeeForm}">
         <!-- エラーメッセージの出力 -->
         <p>
           <span th:each="error:${#fields.detailedErrors()}">

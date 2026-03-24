@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
+import jakarta.servlet.http.HttpSession;
 import jakarta.validation.Valid;
 import jp.co.sss.crud.entity.Employee;
 import jp.co.sss.crud.form.EmployeeForm;
@@ -58,7 +59,7 @@ public class RegistrationController {
 	 * 			新規社員情報登録完了
 	 */
 	@PostMapping("/regist/doRegist")
-	public String doRegist(Employee emp) {
+	public String doRegist(Employee emp, HttpSession session) {
 		empRepo.save(emp);
 		return "regist/regist_complete";
 	}
