@@ -4122,3 +4122,291 @@ Caused by: java.lang.Exception: ƒŠƒ\[ƒX '/spring_crud_taguchi_hibiki/pom.xml' ‚
 2026-03-24 17:17:27,605 [Worker-138: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2026-03-24 17:17:27,613 [Worker-138: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2026-03-24 17:17:27,617 [Worker-138: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 08:42:38,156 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2026-03-25 08:54:55,904 [Worker-17: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2026-03-25 08:54:55,932 [Worker-17: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 24 resources from src\main\resources to target\classes
+2026-03-25 08:54:55,950 [Worker-17: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2026-03-25 09:33:23,756 [Worker-18: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2026-03-25 09:33:23,821 [Worker-18: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 24 resources from src\main\resources to target\classes
+2026-03-25 09:33:23,839 [Worker-18: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 09:57:47,509 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-25 09:57:47,523 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 09:57:47,528 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 09:58:46,492 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2026-03-25 09:58:53,984 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755 [295])
+2026-03-25 09:58:53,990 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755
+2026-03-25 09:58:53,990 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\aether-connector-okhttp-0.17.8.jar
+2026-03-25 09:58:53,992 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\aopalliance-1.0.jar
+2026-03-25 09:58:53,992 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\commons-lang3-3.12.0.jar
+2026-03-25 09:58:53,992 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\guice-5.1.0.jar
+2026-03-25 09:58:53,993 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\jansi-2.4.0.jar
+2026-03-25 09:58:53,993 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-artifact-3.9.4.jar
+2026-03-25 09:58:53,994 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-builder-support-3.9.4.jar
+2026-03-25 09:58:53,994 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-compat-3.9.4.jar
+2026-03-25 09:58:53,994 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-core-3.9.4.jar
+2026-03-25 09:58:53,994 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-embedder-3.9.4.jar
+2026-03-25 09:58:53,995 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-model-3.9.4.jar
+2026-03-25 09:58:53,995 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-model-builder-3.9.4.jar
+2026-03-25 09:58:53,995 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-plugin-api-3.9.4.jar
+2026-03-25 09:58:53,995 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-repository-metadata-3.9.4.jar
+2026-03-25 09:58:53,996 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-resolver-api-1.9.14.jar
+2026-03-25 09:58:53,996 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-resolver-connector-basic-1.9.14.jar
+2026-03-25 09:58:53,996 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-resolver-impl-1.9.14.jar
+2026-03-25 09:58:53,996 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-resolver-named-locks-1.9.14.jar
+2026-03-25 09:58:53,996 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-resolver-provider-3.9.4.jar
+2026-03-25 09:58:53,997 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-resolver-spi-1.9.14.jar
+2026-03-25 09:58:53,997 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-resolver-transport-wagon-1.9.14.jar
+2026-03-25 09:58:53,997 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-resolver-util-1.9.14.jar
+2026-03-25 09:58:53,997 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-settings-3.9.4.jar
+2026-03-25 09:58:53,998 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-settings-builder-3.9.4.jar
+2026-03-25 09:58:53,998 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-shared-utils-3.3.4.jar
+2026-03-25 09:58:53,998 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\okhttp-3.14.1.jar
+2026-03-25 09:58:53,998 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\okio-1.17.3.jar
+2026-03-25 09:58:53,998 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\org.eclipse.sisu.inject-0.3.5.jar
+2026-03-25 09:58:53,999 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2026-03-25 09:58:53,999 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\plexus-build-api-0.0.7.jar
+2026-03-25 09:58:53,999 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\plexus-cipher-2.0.jar
+2026-03-25 09:58:53,999 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\plexus-classworlds-2.7.0.jar
+2026-03-25 09:58:53,999 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\plexus-component-annotations-2.1.0.jar
+2026-03-25 09:58:54,000 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\plexus-interpolation-1.26.jar
+2026-03-25 09:58:54,000 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\plexus-sec-dispatcher-2.0.jar
+2026-03-25 09:58:54,000 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\plexus-utils-3.5.1.jar
+2026-03-25 09:58:54,000 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\wagon-file-3.5.3.jar
+2026-03-25 09:58:54,001 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\wagon-provider-api-3.5.3.jar
+2026-03-25 09:58:54,003 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_32.1.2.jre [10])
+2026-03-25 09:58:54,004 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\com.google.guava_32.1.2.jre.jar
+2026-03-25 09:58:54,004 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.7 [481])
+2026-03-25 09:58:54,004 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\slf4j.api_2.0.7.jar
+2026-03-25 09:58:54,004 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [26])
+2026-03-25 09:58:54,005 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2026-03-25 09:58:54,005 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20200909-1856 [24])
+2026-03-25 09:58:54,005 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\javax.annotation_1.3.5.v20200909-1856.jar
+2026-03-25 09:58:54,005 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.5.0 [49])
+2026-03-25 09:58:54,006 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.apache.commons.cli_1.5.0.jar
+2026-03-25 09:58:54,006 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.1 [12])
+2026-03-25 09:58:54,006 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\com.google.guava.failureaccess_1.0.1.jar
+2026-03-25 09:58:54,010 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\git_repository\spring_crud":
+2026-03-25 09:58:54,011 [Worker-21: spring_crud ‚Ì‹N“®] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always clean site -DgenerateReports=false install -DskipTests=true spring-boot:run
+2026-03-25 10:00:25,034 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2026-03-25 10:00:32,923 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755 [295])
+2026-03-25 10:00:32,924 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755
+2026-03-25 10:00:32,924 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\aether-connector-okhttp-0.17.8.jar
+2026-03-25 10:00:32,924 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\aopalliance-1.0.jar
+2026-03-25 10:00:32,924 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\commons-lang3-3.12.0.jar
+2026-03-25 10:00:32,925 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\guice-5.1.0.jar
+2026-03-25 10:00:32,925 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\jansi-2.4.0.jar
+2026-03-25 10:00:32,925 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-artifact-3.9.4.jar
+2026-03-25 10:00:32,925 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-builder-support-3.9.4.jar
+2026-03-25 10:00:32,925 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-compat-3.9.4.jar
+2026-03-25 10:00:32,926 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-core-3.9.4.jar
+2026-03-25 10:00:32,926 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-embedder-3.9.4.jar
+2026-03-25 10:00:32,926 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-model-3.9.4.jar
+2026-03-25 10:00:32,926 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-model-builder-3.9.4.jar
+2026-03-25 10:00:32,926 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-plugin-api-3.9.4.jar
+2026-03-25 10:00:32,926 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-repository-metadata-3.9.4.jar
+2026-03-25 10:00:32,927 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-resolver-api-1.9.14.jar
+2026-03-25 10:00:32,927 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-resolver-connector-basic-1.9.14.jar
+2026-03-25 10:00:32,927 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-resolver-impl-1.9.14.jar
+2026-03-25 10:00:32,928 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-resolver-named-locks-1.9.14.jar
+2026-03-25 10:00:32,928 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-resolver-provider-3.9.4.jar
+2026-03-25 10:00:32,928 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-resolver-spi-1.9.14.jar
+2026-03-25 10:00:32,928 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-resolver-transport-wagon-1.9.14.jar
+2026-03-25 10:00:32,929 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-resolver-util-1.9.14.jar
+2026-03-25 10:00:32,929 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-settings-3.9.4.jar
+2026-03-25 10:00:32,929 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-settings-builder-3.9.4.jar
+2026-03-25 10:00:32,929 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\maven-shared-utils-3.3.4.jar
+2026-03-25 10:00:32,930 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\okhttp-3.14.1.jar
+2026-03-25 10:00:32,930 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\okio-1.17.3.jar
+2026-03-25 10:00:32,930 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\org.eclipse.sisu.inject-0.3.5.jar
+2026-03-25 10:00:32,930 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2026-03-25 10:00:32,931 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\plexus-build-api-0.0.7.jar
+2026-03-25 10:00:32,931 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\plexus-cipher-2.0.jar
+2026-03-25 10:00:32,931 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\plexus-classworlds-2.7.0.jar
+2026-03-25 10:00:32,932 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\plexus-component-annotations-2.1.0.jar
+2026-03-25 10:00:32,932 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\plexus-interpolation-1.26.jar
+2026-03-25 10:00:32,932 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\plexus-sec-dispatcher-2.0.jar
+2026-03-25 10:00:32,932 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\plexus-utils-3.5.1.jar
+2026-03-25 10:00:32,933 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\wagon-file-3.5.3.jar
+2026-03-25 10:00:32,933 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\wagon-provider-api-3.5.3.jar
+2026-03-25 10:00:32,933 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_32.1.2.jre [10])
+2026-03-25 10:00:32,934 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\com.google.guava_32.1.2.jre.jar
+2026-03-25 10:00:32,934 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.7 [481])
+2026-03-25 10:00:32,934 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\slf4j.api_2.0.7.jar
+2026-03-25 10:00:32,934 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [26])
+2026-03-25 10:00:32,935 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2026-03-25 10:00:32,936 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20200909-1856 [24])
+2026-03-25 10:00:32,936 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\javax.annotation_1.3.5.v20200909-1856.jar
+2026-03-25 10:00:32,937 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.5.0 [49])
+2026-03-25 10:00:32,938 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\org.apache.commons.cli_1.5.0.jar
+2026-03-25 10:00:32,938 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.1 [12])
+2026-03-25 10:00:32,939 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\pleiades\2023-09\eclipse\plugins\com.google.guava.failureaccess_1.0.1.jar
+2026-03-25 10:00:32,941 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\git_repository\spring_crud":
+2026-03-25 10:00:32,941 [Worker-21: spring_crud (1) ‚Ì‹N“®] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always surefire-report:report
+2026-03-25 10:01:09,276 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:09,303 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:09,317 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:01:12,572 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:12,585 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:12,594 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:01:15,993 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:16,024 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:16,046 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:01:19,222 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:19,265 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:19,285 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:01:22,252 [Worker-1: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:22,406 [Worker-1: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:22,454 [Worker-1: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:01:24,740 [Worker-1: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:24,760 [Worker-1: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:24,772 [Worker-1: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:01:31,114 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:31,133 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:31,146 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:01:34,103 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:34,121 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:34,132 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:01:37,148 [Worker-20: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:37,177 [Worker-20: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:37,188 [Worker-20: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:01:40,396 [Worker-21: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:40,419 [Worker-21: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:40,433 [Worker-21: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:01:43,615 [Worker-21: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:43,642 [Worker-21: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:43,654 [Worker-21: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:01:50,030 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:50,047 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:50,060 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:01:52,952 [Worker-20: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:52,968 [Worker-20: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:52,980 [Worker-20: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:01:59,314 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:59,337 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:01:59,351 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:02:05,860 [Worker-1: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:02:05,878 [Worker-1: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:02:05,893 [Worker-1: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:02:08,630 [Worker-23: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:02:08,650 [Worker-23: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:02:08,664 [Worker-23: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:02:14,931 [Worker-1: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:02:14,945 [Worker-1: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:02:14,954 [Worker-1: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:02:18,040 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:02:18,055 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:02:18,064 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:02:24,754 [Worker-24: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:02:24,767 [Worker-24: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:02:24,776 [Worker-24: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:02:27,454 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:02:27,473 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:02:27,482 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:02:30,619 [Worker-1: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:02:30,636 [Worker-1: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:02:30,647 [Worker-1: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:02:36,678 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:02:36,694 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:02:36,702 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:02:42,922 [Worker-23: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:02:42,939 [Worker-23: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:02:42,949 [Worker-23: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:02:49,180 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:02:49,199 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:02:49,212 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:02:55,338 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:02:55,351 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:02:55,363 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:02:58,348 [Worker-20: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:02:58,358 [Worker-20: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:02:58,364 [Worker-20: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:03:05,012 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:03:05,032 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:03:05,043 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:03:11,033 [Worker-25: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:03:11,050 [Worker-25: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:03:11,064 [Worker-25: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:03:14,473 [Worker-20: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:03:14,497 [Worker-20: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:03:14,509 [Worker-20: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:03:20,182 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:03:20,198 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:03:20,209 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:03:23,609 [Worker-24: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:03:23,640 [Worker-24: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:03:23,660 [Worker-24: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:03:29,779 [Worker-23: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:03:29,800 [Worker-23: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:03:29,813 [Worker-23: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:03:35,936 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:03:35,971 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:03:36,002 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:03:42,683 [Worker-20: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:03:42,712 [Worker-20: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:03:42,737 [Worker-20: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:03:48,728 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:03:48,751 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:03:48,761 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:03:54,927 [Worker-20: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:03:54,945 [Worker-20: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:03:54,956 [Worker-20: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:04:01,025 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:04:01,042 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:04:01,054 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:04:04,186 [Worker-20: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:04:04,220 [Worker-20: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:04:04,235 [Worker-20: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:04:10,727 [Worker-23: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:04:10,780 [Worker-23: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:04:10,794 [Worker-23: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:04:16,726 [Worker-23: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:04:16,744 [Worker-23: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:04:16,760 [Worker-23: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:04:22,706 [Worker-1: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:04:22,723 [Worker-1: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:04:22,729 [Worker-1: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:04:25,943 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:04:25,974 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:04:25,987 [Worker-5: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:04:29,206 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:04:29,227 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:04:29,239 [Worker-19: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:04:32,306 [Worker-25: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:04:32,327 [Worker-25: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:04:32,340 [Worker-25: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:04:35,376 [Worker-24: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:04:35,393 [Worker-24: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:04:35,402 [Worker-24: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:04:38,458 [Worker-1: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:04:38,484 [Worker-1: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:04:38,498 [Worker-1: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:04:41,432 [Worker-24: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:04:41,440 [Worker-24: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:04:41,445 [Worker-24: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:15:36,618 [Worker-26: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:15:36,630 [Worker-26: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:15:36,640 [Worker-26: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:16:50,528 [Worker-25: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:16:50,549 [Worker-25: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:16:50,562 [Worker-25: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:16:53,299 [Worker-27: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:16:53,306 [Worker-27: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:16:53,311 [Worker-27: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:24:54,898 [Worker-31: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:24:54,913 [Worker-31: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:24:54,927 [Worker-31: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:25:01,368 [Worker-4: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:25:01,387 [Worker-4: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:25:01,401 [Worker-4: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:25:04,304 [Worker-4: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:25:04,322 [Worker-4: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:25:04,335 [Worker-4: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:25:10,392 [Worker-1: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:25:10,405 [Worker-1: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:25:10,412 [Worker-1: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:30:16,443 [Worker-24: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2026-03-25 10:30:16,480 [Worker-24: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 24 resources from src\main\resources to target\classes
+2026-03-25 10:30:16,505 [Worker-24: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-25 10:30:40,221 [Worker-30: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:30:40,234 [Worker-30: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-25 10:30:40,240 [Worker-30: ƒrƒ‹ƒh] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes

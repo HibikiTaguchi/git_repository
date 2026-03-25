@@ -82,7 +82,9 @@ public class UpdateController {
 	
 	@PostMapping("/update/back")
 	public String backToInputWithInfo(EmployeeBean empBean, Model model) {
-		model.addAttribute("empBean", empBean);
+		EmployeeForm employeeForm = new EmployeeForm();
+		BeanUtils.copyProperties(empBean, employeeForm);
+		model.addAttribute("employeeForm", employeeForm);
 		return "update/update_input";
 	}
 }
