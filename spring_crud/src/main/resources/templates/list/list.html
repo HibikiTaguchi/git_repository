@@ -13,7 +13,7 @@
     <!-- フィルターの処理により、当該Thymeleaf処理完了後にログイン画面にリダイレクトする。 -->
 	<!-- ***管理者権限表示*** -->
 	<!-- ***trueを書き換えること*** -->
-	<th:block th:if="${true}">
+	<th:block th:if="${session.user.authority == 2}">
 		<div class="regist_link">
 			<a th:href="@{/regist/input}">新規社員登録</a>
 		</div>
@@ -41,14 +41,14 @@
 			<th>社員名</th>
 			<!-- ***管理者権限表示*** -->
 			<!-- ***trueを書き換えること*** -->
-			<th:block th:if="true">
+			<th:block th:if="${session.user.authority == 2}">
 				<th class="gender">性別</th>
 				<th class="address">住所</th>
 				<th class="birthday">生年月日</th>
 				<th class="authority">権限</th>
 			</th:block>
 			<th class="deptName">部署名</th>
-			<th:block th:if="true">
+			<th:block th:if="${session.user.authority == 2}">
 				<th class="button">変更</th>
 				<th class="button">削除</th>
 			</th:block>
@@ -59,13 +59,19 @@
 		<tr th:each="emp:${empList}">
 			<td th:text="${emp.empId}"></td>
 			<td th:text="${emp.empName}"></td>
-			<td th:if="${emp.gender == 1}">男性</td>
-			<td th:if="${emp.gender == 2}">女性</td>
-			<td th:text="${emp.address}"></td>
-			<td th:text="${#dates.format(emp.birthday, 'yyyy/MM/dd')}"></td>
-			<td th:if="${emp.authority == 1}">一般</td>
-			<td th:if="${emp.authority == 2}">管理者</td>
+		<!--管理者権限表示-->
+			<th:block th:if="${session.user.authority == 2}">
+				<td th:if="${emp.gender == 1}">男性</td>
+				<td th:if="${emp.gender == 2}">女性</td>
+				<td th:text="${emp.address}"></td>
+				<td th:text="${#dates.format(emp.birthday, 'yyyy/MM/dd')}"></td>
+				<td th:if="${emp.authority == 1}">一般</td>
+				<td th:if="${emp.authority == 2}">管理者</td>
+			</th:block>
+		<!--管理者権限表示　ここまで-->
 			<td th:text="${emp.department.deptName}"></td>
+		<!--管理者権限表示-->	
+			<th:block th:if="${session.user.authority == 2}">
 			<td>
 				<form th:action="@{/update/} + ${emp.empId}" method="post">
 					<input type="submit" value="変更">
@@ -76,6 +82,8 @@
 					<input type="submit" value="削除">
 				</form>
 			</td>
+			</th:block>
+		<!--管理者権限表示　ここまで-->
 		</tr>
 		<!-- ***####を書き換え、社員情報を全件出力する ここまで*** -->
 	</table>

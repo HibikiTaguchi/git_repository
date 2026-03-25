@@ -47,6 +47,8 @@
             <input type="text" th:field="*{birthday}" />(YYYY/MM/DD)
           </div>
         </div>
+		<!--管理者権限表示-->
+        <th:block th:if="${session.user.authority == 2}">
         <div class="form">
           <div class="label">権限：</div>
           <div class="input">
@@ -55,6 +57,10 @@
           </div>
         </div>
         </th:block>
+		<!--一般権限時内部処理-->
+        <th:block th:if="${session.user.authority == 1}">
+			<input type="hidden" th:field="*{authority}" value="1">
+		</th:block>
         
         <div class="form">
           <div class="label">部署名：</div>

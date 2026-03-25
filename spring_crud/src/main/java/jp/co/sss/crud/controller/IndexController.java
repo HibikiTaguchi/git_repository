@@ -27,22 +27,22 @@ public class IndexController {
 
 	@Autowired
 	HttpSession session;
-
-	boolean isIdExist = true;
+	
+	boolean isCorrect = true;
 	
 	@RequestMapping(path = "/", method = RequestMethod.GET)
 	public String index(@ModelAttribute LoginForm loginForm, Model model) {
 		session.invalidate();
-		model.addAttribute("isIdExist", isIdExist);
+		model.addAttribute("isCorrect", isCorrect);
 		return "index";
 	}
 	
 	@PostMapping("/login")
 	public String login(@Valid @ModelAttribute LoginForm form, BindingResult result, HttpSession session, Model model) {
-		session.removeAttribute("loginForm");
+		session.removeAttribute("user");
 		//ログイン判定の前に入力値チェック
 		if (result.hasErrors()) {
-			model.addAttribute("isIdExist", isIdExist);
+			model.addAttribute("isCorrect", isCorrect);
 			return "index";
 		}
 		//フォームの内容をセッションコープに保存
@@ -60,8 +60,8 @@ public class IndexController {
 			}
 		}
 		if (count == 0) {
-			isIdExist = false;
-			model.addAttribute("isIdExist", isIdExist);
+			isCorrect = false;
+			model.addAttribute("isCorrect", isCorrect);
 			return "index";
 		}
 		Employee employee = new Employee();
@@ -80,7 +80,8 @@ public class IndexController {
 		} else {
 			//パスワード不一致のため再度ログイン画面へ
 			System.out.println("ログイン失敗");
-			model.addAttribute("isIdExist", isIdExist);
+			isCorrect = false;
+			model.addAttribute("isCorrect", isCorrect);
 			return "index";
 		}
 	}

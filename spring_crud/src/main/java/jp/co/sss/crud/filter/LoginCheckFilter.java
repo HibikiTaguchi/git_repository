@@ -2,8 +2,6 @@ package jp.co.sss.crud.filter;
 
 import java.io.IOException;
 
-import org.springframework.stereotype.Component;
-
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpFilter;
@@ -12,13 +10,14 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import jp.co.sss.crud.form.LoginForm;
 
-@Component
 public class LoginCheckFilter extends HttpFilter {
 	@Override 
     public void doFilter(HttpServletRequest request, HttpServletResponse response,
       FilterChain chain) throws IOException, ServletException { 
 		String requestURL = request.getRequestURI();
-		if (requestURL.endsWith("/spring_crud/") || requestURL.endsWith("/login")) {
+		if (requestURL.endsWith("/spring_crud/") || requestURL.endsWith("/login") ||
+		  requestURL.indexOf("/html/") != -1 || requestURL.indexOf("/css/") != -1 ||
+		    requestURL.indexOf("/img/") != -1 || requestURL.indexOf("/js/") != -1) {
 			chain.doFilter(request, response);
 		} else {
 			HttpSession session = request.getSession();

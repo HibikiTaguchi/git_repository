@@ -38,11 +38,16 @@ public class UpdateController {
 	}
 	
 	@GetMapping("/update/input")
-	public String showUpdateInputGet(@RequestParam("empId") Integer empId, Model model) {
+	public String showUpdateInputGet(@RequestParam("empId") Integer empId,
+	  Model model, HttpSession session) {
 		Employee emp = empRepo.getReferenceById(empId);
 		EmployeeForm employeeForm = new EmployeeForm();
 		BeanUtils.copyProperties(emp, employeeForm);
 		System.out.println(employeeForm.getDeptId());
+//		Employee loginUser = (Employee) session.getAttribute("user");
+//		EmployeeForm userForm = new EmployeeForm();
+//		BeanUtils.copyProperties(loginUser, userForm);
+//		model.addAttribute("userForm", userForm);
 		model.addAttribute("employeeForm", employeeForm);
 		return "update/update_input";
 	}

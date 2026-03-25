@@ -17,8 +17,7 @@
 				<span th:text="${error.message}"></span><br />
 			</span>
 		<!-- ログイン失敗の場合 -->
-			<span th:if="${#fields.hasErrors()}" th:text="#{message.loginError}"></span>
-			<span th:unless="${isIdExist}" th:text="#{message.loginError}"></span>
+			<span th:unless="${isCorrect}" th:text="#{message.loginError}"></span>
 		</p>
 		<div class="login_form">
 		<form method="post" th:action="@{/login}">
