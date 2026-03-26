@@ -23,8 +23,11 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\edu\Documents\コード待避所\spring_crud終了.zip"/>
 			<item value="C:\Users\edu\Documents\コード待避所\spring_crud追加機能1ログイン判定まで.zip"/>
 			<item value="C:\Users\edu\Documents\spring_crud_taguchi_hibiki.zip"/>
 		</list>
+	</section>
+	<section name="ZipFileImportWizard">
 	</section>
 </section>

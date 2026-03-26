@@ -1,5 +1,5 @@
 package jp.co.sss.crud.util;
-
+/** 定数を管理するクラス */
 public class Constant {
     /** 性別の初期値 */
     public static final Integer DEFAULT_GENDER = 1;
