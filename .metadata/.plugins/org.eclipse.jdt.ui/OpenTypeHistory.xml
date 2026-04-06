@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
+    <typeInfo handle="=spring_advanced/C:\/Users\/edu\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/4.0.4\/spring-data-jpa-4.0.4.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/4.0.4=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1774579062359"/>
     <typeInfo handle="=practice/C:\/pleiades\/2023-09\/java\/17\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/jp\/17\/docs\/api\/=/=/maven.pomderived=/true=/&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1698331007000"/>
 </typeInfoHistroy>

@@ -41,6 +41,7 @@ public class IndexController {
 		//念のため最初にセッションを破棄
 		session.invalidate();
 		//初回アクセス時にはエラーは無いのでフラグは降ろす
+		isCorrect = true;
 		model.addAttribute("isCorrect", isCorrect);
 		return "index";
 	}
@@ -64,7 +65,7 @@ public class IndexController {
 			return "index";
 		}
 		//入力値に異常が無ければログイン判定をする
-		//フォームの内容をセッションコープに保存
+		//フォームの内容をセッションスコープに保存
 		session.setAttribute("loginForm", form);
 		
 		//入力された社員IDがDB上に存在するか確認
@@ -84,6 +85,7 @@ public class IndexController {
 			model.addAttribute("isCorrect", isCorrect);
 			return "index";
 		}
+		//ここまで通ればログインIDは一致してるのでパスワードの正誤判定
 		//EmployeeRepositoryのID検索メソッドを使って入力されたIDの従業員情報を取得
 		int id = form.getEmpId();
 		Employee employee = new Employee();
