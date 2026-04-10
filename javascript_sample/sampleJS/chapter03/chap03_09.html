@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>サンプルコード3-9</title>
+ </head>
+ <body>
+   <h2>フォーム形式を変更</h2>
+   <input id="form" type="text">
+   <hr>
+   <input type="button" value="ラジオボタン" onclick="change('radio')">
+   <input type="button" value="チェックボックス" onclick="change('checkbox')">
+   <input type="button" value="ファイル" onclick="change('file')">
+   <input type="button" value="テキスト" onclick="change('text')">
+  <script>
+    function change(type) {
+      const form = document.getElementById("form");
+      form.setAttribute("type", type);
+    }
+  </script>
+ </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>サンプルコード3-6</title>
+</head>
+
+<body>
+  <h2>タイトル</h2>
+  <p id="p">本文始まり<span>要素1</span><b>要素2</b><i>要素3</i><font>要素4</font>本文終わり
+  </p>
+  <script>
+    const p = document.getElementById("p");
+    let next = p.firstChild;
+    let text = "";
+    while (next) {
+      text += check(next) + " ";
+      next = next.nextSibling;
+    }
+    alert(text);
+
+    function check(elm) {
+      if (elm.nodeType == 1) {
+        return "<" + elm.tagName + ">";
+      } else if (elm.nodeType == 3) {
+        return elm.nodeValue;
+      } else {
+        return null;
+      }
+    }
+  </script>
+</body>
+
+</html>

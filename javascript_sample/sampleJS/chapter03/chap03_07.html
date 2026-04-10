@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>サンプルコード3-7</title>
+ </head>
+ <body>
+   <h2>ダッシュボード</h2>
+   <p>システムからのメッセージ</p>
+   <textarea id="message" style="width:300px; height:150px"></textarea>
+  <script>
+    const msg = document.getElementById("message");
+    const now = new Date().getHours();
+    if (now<10) {
+      msg.innerHTML = "おはようございます！";
+    }else if(now<18) {
+      msg.innerHTML = "おつかれさまです。";
+    }else{
+      msg.innerHTML = "おつかれさまでした。また明日！";
+    }
+  </script>
+ </body>
+</html>

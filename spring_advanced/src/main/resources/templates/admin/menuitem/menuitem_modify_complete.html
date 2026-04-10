@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="/css/style.css" rel="stylesheet" />
+<link href="/css/layout.css" rel="stylesheet" />
+<title>シェアードピザ | メニュー項目編集</title>
+</head>
+<body>
+<header>Shared Pizza Shop － スタッフ専用 －</header>
+<main>
+<article>
+  <h1>メニュー項目編集 完了</h1>
+  下記の情報に変更しました。
+    <table class="inputform" th:object="${miBean}">
+    <tr>
+    <td>メニュー項目番号</td>
+    <td th:text="*{menuitemId}"></td>
+    </tr>
+    <tr>
+    <td>メニュー項目名</td>
+    <td th:text="*{menuitemName}"></td>
+    </tr>
+    <tr>
+    <td>価格</td>
+    <td th:text="*{price}"></td>
+    </tr>
+    <tr>
+    <td>ステータス</td>
+    <td th:text="*{status}"></td>
+    </tr>
+    <tr>
+    <td>種別名</td>
+    <td th:switch="*{kindId}">
+		<span th:case="1">pizza</span>
+		<span th:case="2">pasta</span>
+		<span th:case="3">side</span>
+		<span th:case="4">drink</span>
+	</td>
+    </tr>
+    <tr>
+    <td>更新日</td>
+    <td th:text="*{modifiedDate}"></td>
+    </tr>
+    </table>
+    <a th:href="@{/admin/menuitem/list}">メニュー項目一覧画面に戻る</a>
+</article>
+</main>
+<footer>Shared Pizza Shop</footer>
+</body>
+</html>

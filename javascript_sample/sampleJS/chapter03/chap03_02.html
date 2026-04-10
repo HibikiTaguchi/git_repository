@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <title>サンプルコード3-2</title>
+ </head>
+ <body>
+   <form name="mailform" action="dummy.cgi" onsubmit="return check(this)">
+     <p>氏名：<input type="text" name="user" value="">
+        メール:<input type="text" name="mail"></p>
+     <p>コメント:<br />
+     <textarea name="comment" cols="30" rows="3"></textarea></p>
+     <p><input type="submit" value="送信"></p>
+   </form>
+   <script>
+     function check(form) {
+       if(form.elements["user"].value=="" ||
+          form.elements["mail"].value=="") {
+          alert("氏名とメールは必須入力です。");
+          return false;
+       }else{ return true; }
+     }
+   </script>
+ </body>
+</html>

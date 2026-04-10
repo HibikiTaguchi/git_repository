@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>シェアードピザ | スタッフ情報変更</title>
+</head>
+<body>
+<header>Shared Pizza Shop － スタッフ専用 －</header>
+<main>
+<article>
+  <h1>スタッフ情報変更 完了</h1>
+  下記の情報に変更しました。
+    <table class="inputform" th:object="${stfBean}">
+    <tr>
+    <td>スタッフ番号</td>
+    <td th:text="*{staffId}"></td>
+    </tr>
+    <tr>
+    <td>スタッフ名</td>
+    <td th:text="*{staffName}"></td>
+    </tr>
+    <td>アクセスID</td>
+    <td th:text="*{accessId}"></td>
+    </tr>
+    </table>
+    ※パスワードは、表示していません。<br>
+    <a th:href="@{/admin/staff/list}">スタッフ一覧画面に戻る</a>
+</article>
+</main>
+<footer>Shared Pizza Shop</footer>
+</body>
+</html>

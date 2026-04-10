@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>サンプルコード3-11</title>
+  <style>
+    div#d1 {
+      position: absolute; left: 0px; top: 0px;
+      width: 50px; height: 50px; background-color: lightskyblue;
+    }
+  </style>
+ </head>
+ <body>
+   <div id="d1"></div>
+  <script>
+    window.onload = anime;
+    let x=0, y=0, dx=4, dy=1;
+    function anime() {
+      const d1 = document.getElementById("d1");
+      d1.style.left = x + "px";
+      d1.style.top = y + "px";
+      x += dx; y += dy;
+      if( x<4 || 100<x ) dx *= -1;
+      if( y<1 || 50<y ) dy *= -1;
+      setTimeout("anime()", 100);
+    }
+  </script>
+ </body>
+</html>

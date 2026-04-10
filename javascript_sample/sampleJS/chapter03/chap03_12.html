@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>サンプルコード3-12</title>
+ </head>
+ <body>
+   <h2>商品情報</h2>
+   <h3>トップス</h3>
+   <ul>
+     <li>Tシャツ・カットソー</li>
+     <li>シャツ・ブラウス</li>
+     <li>ニット・セーター</li>
+     <li>トレーナー・スウェット</li>
+   </ul>
+   <h3>パンツ・スカート</h3>
+   <ul>
+     <li>ワイドパンツ</li>
+     <li>スキニー・スリムパンツ</li>
+     <li>ひざ丈スカート</li>
+     <li>ロング丈・マキシ丈スカート</li>
+   </ul>
+  <script>
+    window.onload = init;
+    function init() {
+      const h3 = document.getElementsByTagName("h3");
+      for(let i=0; i<h3.length; i++){
+        h3[i].onclick = hideList;
+        const ul = getNext(h3[i], "UL");
+        if(ul) ul.style.display = "none";
+      }
+    }
+    // ul要素を隠す・表示するイベントハンドラ
+    function hideList(){
+      const ul = getNext(this, "UL");
+      if(ul){
+        if(ul.style.display=="none") ul.style.display = "block";
+        else ul.style.display = "none";
+      }
+    }
+    // 指定要素の次のul要素を返す
+    function getNext(elm, tagName){
+      let next = elm.nextSibling;
+      while(next){
+        if(next.nodeType==1 && next.tagName==tagName) return next;
+        next = next.nextSibling;
+      }
+      return null;
+    }
+  </script>
+ </body>
+</html>

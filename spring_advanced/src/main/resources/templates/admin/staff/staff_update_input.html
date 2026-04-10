@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>シェアードピザ | スタッフ情報変更</title>
+</head>
+<body>
+<header>Shared Pizza Shop － スタッフ専用 －</header>
+<main>
+<article>
+  <h1>スタッフ情報変更</h1>
+  <form th:action="@{'admin/staff/update/complete/' + *{staffId}}" method="post" th:object="${staffForm}">
+    <table class="inputform" th:object="${stfBean}">
+    <tr>
+    <td>スタッフ番号</td>
+    <td th:text="*{staffId}"></td>
+    </tr>
+    <tr>
+    <td>スタッフ名</td>
+    <td><input type="text" th:field="*{staffName}"/></td>
+    </tr>
+    <tr>
+    <td>アクセスID</td>
+    <td><input type="text" th:field="*{accessId}"/></td>
+    </tr>
+    <tr>
+    <td>パスワード</td>
+    <td><input type="password" th:field="*{password}"/></td>
+    </tr>
+    </table>
+    <input type="submit" value="変更"/>
+  </form>
+</article>
+</main>
+<footer>Shared Pizza Shop</footer>
+</body>
+</html>

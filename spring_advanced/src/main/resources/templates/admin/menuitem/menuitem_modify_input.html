@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>シェアードピザ | メニュー項目編集</title>
+</head>
+<body>
+<header>Shared Pizza Shop － スタッフ専用 －</header>
+<main>
+<article th:object="${miBean}">
+  <h1>メニュー項目編集</h1>
+  <form th:action="@{/admin/menuitem/modify/complete/} + *{menuitemId}" method="post">
+   <table class="inputform">
+    <tr>
+    <td>メニュー項目番号</td>
+    <td th:text="*{menuitemId}"></td>
+    </tr>
+    <tr>
+    <td>メニュー項目名</td>
+    <td><input type="text" th:field="*{menuitemName}"/></td>
+    </tr>
+    <tr>
+    <td>価格</td>
+    <td><input type="number" th:field="*{price}"/></td>
+    </tr>
+    <tr>
+     <td>ステータス</td>
+    <td><label><input type="radio" th:field="*{status}" value="0" checked="checked"/>販売中</label>
+    <label><input type="radio" th:field="*{status}" value="1"/>販売停止</label>
+    </td>
+    </tr>
+    <tr>
+    <td>種別</td>
+    <td><select th:field="*{kindId}">
+     <option value="1" selected>pizza</option>
+     <option value="2">pasta</option>
+     <option value="3">side</option>
+     <option value="4">drink</option>
+    </select></td>
+    </tr>
+    </table>
+    <input type="submit" value="編集"/>
+  </form>
+</article>
+</main>
+<footer>Shared Pizza Shop</footer>
+</body>
+</html>

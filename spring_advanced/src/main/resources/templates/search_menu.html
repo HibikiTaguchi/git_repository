@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>シェアードピザ</title>
+</head>
+<body>
+<header>Shared Pizza Shop － ようこそシェアードピザへ－</header>
+<main>
+<aside>
+  <h1>メニュー検索</h1>
+  <div class="searchmenu">
+    <h2>メニュー項目名検索</h2>
+    <form th:action="@{/search/byname}">
+     <input type="text" name="menuitemName"/>
+    <input type="submit" value="検索"/>
+  </form>
+ </div>
+ <div class="searchmenu">
+    <h2>種別検索</h2>
+    <form th:action="@{/search/bykind}">
+    <select name="kindId">
+		<option value="0" selected>‐選択なし‐</option>
+    	<option th:each="kind:${kindList}" th:value="${kind.kindId}" th:text="${kind.kindName}"></option>
+    </select>
+    <input type="submit" value="検索"/>
+  </form>
+ </div>
+</aside>
+</main>
+<footer>Shared Pizza Shop</footer>
+</body>
+</html>

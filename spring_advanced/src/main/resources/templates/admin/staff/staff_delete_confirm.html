@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="/css/style.css" rel="stylesheet" />
+<link href="/css/layout.css" rel="stylesheet" />
+<title>シェアードピザ | スタッフ情報削除</title>
+</head>
+<body>
+<header>Shared Pizza Shop － スタッフ専用 －</header>
+<main>
+<article th:object="${stfBean}">
+  <h1>スタッフ情報削除 確認</h1>
+  <form th:action="@{'/admin/staff/delete/complete/' + *{staffId}}" method="post">
+    <table class="inputform">
+    <tr>
+    <td>スタッフ番号</td>
+    <td th:text="*{staffId}"></td>
+    </tr>
+    <tr>
+    <td>スタッフ名</td>
+    <td th:text="*{staffName}"></td>
+    </tr>
+    <td>アクセスID</td>
+    <td th:text="*{accessId}"></td>
+    </tr>
+    </table>
+    <input type="submit" value="削除"/>
+  </form>
+</article>
+</main>
+<footer>Shared Pizza Shop</footer>
+</body>
+</html>

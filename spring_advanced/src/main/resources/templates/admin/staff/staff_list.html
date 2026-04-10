@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>シェアードピザ | スタッフ一覧</title>
+</head>
+<body>
+<header>
+	Shared Pizza Shop － スタッフ専用 － 
+	<th:block th:if="${session.loginUser != null}">
+		スタッフ名：<span th:text="${session.loginUser.staffName}"></span>
+		：<a th:href="@{/admin/logout}">ログアウト</a>
+	</th:block>
+</header>
+<main>
+<article>
+  <h1>スタッフ一覧</h1>
+  <a th:href="@{/admin/staff/register}" >スタッフ情報登録</a>
+  <table class="list">
+    <tr>
+      <th>スタッフ番号</th>
+      <th>スタッフ名</th>
+      <th>アクセスID</th>
+      <th>操作</th>
+    </tr>
+    <tr th:each="staff:${stfList}">
+      <td th:text="${staff.staffId}"></td>
+      <td th:text="${staff.staffName}"></td>
+      <td th:text="${staff.accessId}"></td>
+      <td>
+		  <form th:action="@{'/admin/staff/update/' + ${staff.staffId}}" method="post">
+			  <input type="submit" value="変更">
+		  </form>
+		  <form th:action="@{'/admin/staff/delete/' + ${staff.staffId}}" method="post">
+			  <input type="submit" value="削除">
+		  </form>
+	  </td>
+    </tr>
+  </table>
+</article>
+</main>
+<footer>Shared Pizza Shop</footer>
+</body>
+</html>

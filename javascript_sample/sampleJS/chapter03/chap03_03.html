@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <title>サンプルコード3-3</title>
+</head>
+
+<body>
+  <h2>色が変化</h2>
+  <p onmouseover="chgColor(this)" onmouseout="chgColor(this)">
+    ここは色が変化します。</p>
+  <p>ここは変化しません。</p>
+  <p onmouseover="chgColor(this)" onmouseout="chgColor(this)">
+    ここも色が変化します。</p>
+  <script>
+    function chgColor(elm) {
+      const bg = elm.style;
+      if (bg.backgroundColor != 'lightskyblue') {
+        bg.backgroundColor = 'lightskyblue';
+      } else {
+        bg.backgroundColor = 'white';
+      }
+    }
+  </script>
+</body>
+
+</html>

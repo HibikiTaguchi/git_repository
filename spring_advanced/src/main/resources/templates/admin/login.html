@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="/css/style.css" rel="stylesheet" />
+<link href="/css/layout.css" rel="stylesheet" />
+<title>シェアードピザ | ログイン</title>
+</head>
+<body>
+<header class="admin">Shared Pizza Shop － スタッフ専用 －</header>
+<main>
+<article th:object="${loginForm}">
+  <h1>ログイン</h1>
+  <th:block th:if="${#fields.hasErrors()}">
+	  <ul>
+		  <li th:each="error:${#fields.detailedErrors()}">
+			  <span th:text="${error.message}"></span>
+		  </li>
+	  </ul>
+  </th:block>
+  <form th:action="@{/admin/login}" method="post">
+    <table class="inputform">
+	<tr>
+	    <td>アクセスID</td>
+	    <td><input type="text" th:field="*{accessId}"/></td>
+    </tr>
+    <tr>
+	    <td>パスワード</td>
+	    <td><input type="password" th:field="*{password}"/></td>
+    </tr>
+    </table>
+    <input type="submit" value="ログイン"/>
+  </form>
+</article>
+</main>
+<footer>Shared Pizza Shop</footer>
+</body>
+</html>

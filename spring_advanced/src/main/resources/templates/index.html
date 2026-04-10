@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>シェアードピザ</title>
+</head>
+<body>
+<header>Shared Pizza Shop － ようこそシェアードピザへ －</header>
+<main>
+<article>
+  <h1>メニュー一覧</h1>
+  <th:block th:if="${siBean == null} or ${siBean.searchMethod == 0}">
+  	 並べ替え指定:<a th:href="@{/}">番号順</a>:<a th:href="@{/sort/1}">安い順</a>:<a th:href="@{/sort/2}">高い順</a>
+  </th:block>
+  <table th:if="${siBean != null} and ${siBean.searchMethod == 1}"> 
+     <tr>
+		 <td>検索条件</td>
+		 <td>＜メニュー項目名検索:<span th:text="${siBean.searchKey}"></span>＞</td>
+	 </tr>
+  </table>
+  <table th:if="${siBean != null} and ${siBean.searchMethod == 2}"> 
+     <tr>
+		 <td>検索条件</td>
+	 	 <td>＜種別検索:<span th:text="${siBean.searchKey}"></span>＞</td>
+	 </tr>
+	 <tr>
+		<td>平均価格</td>
+		<td th:text="${siBean.kindAvgPrice}"></td>
+	 </tr>
+  </table>  
+
+  <table class="list">
+    <tr>
+      <th>番号</th>
+      <th>メニュー名</th>
+      <th>価格</th>
+      <th>種別</th>
+    </tr>
+    <tr th:each="menuitem:${miList}">
+      <td th:text="${menuitem.menuitemId}"></td>
+      <td th:text="${menuitem.menuitemName}"></td>
+      <td class="price" th:text="${menuitem.price}"></td>
+      <td th:text="${menuitem.kind.kindName}"></td>
+    </tr>
+  </table>
+</article>
+</main>
+<footer>Shared Pizza Shop</footer>
+</body>
+</html>

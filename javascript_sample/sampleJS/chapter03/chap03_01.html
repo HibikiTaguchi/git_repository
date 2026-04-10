@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <title>サンプルコード3-1</title>
+  <script>
+    function popup(url) {
+      const win = open(url, "win1", "width=350,height=200");
+      win.focus();
+    }
+  </script>
+</head>
+
+<body>
+  <a href="#" onclick="popup('chap03_01_pop.html'); return false;">ポップアップを開く</a><br />
+  <p>※ポップアップブロックを無効にして実行してください。</p>
+</body>
+
+</html>

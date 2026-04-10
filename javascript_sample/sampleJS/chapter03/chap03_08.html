@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>サンプルコード3-8</title>
+ </head>
+ <body>
+   <h2>タイトル</h2>
+   <p id="p1">要素1</p>
+   <p>要素2</p>
+   <p>要素3</p>
+   <input type="button" value="最後に追加" onclick="append()">
+   <input type="button" value="要素1の手前に追加" onclick="before()">
+  <script>
+    function append() {
+      const div = square();
+      document.body.appendChild(div);
+    }
+    function before() {
+      const div = square();
+      const p1 = document.getElementById("p1");
+      document.body.insertBefore(div, p1);
+    }
+    function square() {
+      const div = document.createElement("div");
+      div.style.width = "100px";
+      div.style.height = "100px";
+      div.style.backgroundColor = "lightskyblue";
+      return div;
+    }
+  </script>
+ </body>
+</html>

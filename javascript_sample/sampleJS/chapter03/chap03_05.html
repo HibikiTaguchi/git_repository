@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>サンプルコード3-5</title>
+</head>
+
+<body>
+  <h2>メニュー</h2>
+  <ul>
+    <li>ハンバーグ定食</li>
+    <li>生姜焼き定食</li>
+    <li>焼き魚定食</li>
+  </ul>
+  <script>
+    const li = document.getElementsByTagName("li");
+    let text = li[0].innerHTML;
+    for (let i = 1; i < li.length; i++) {
+      text += "、" + li[i].innerHTML;
+    }
+    alert("本日のメニューは " + text + " です。");
+  </script>
+</body>
+
+</html>

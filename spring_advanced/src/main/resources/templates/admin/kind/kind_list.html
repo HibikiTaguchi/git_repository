@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>シェアードピザ | 種別一覧</title>
+</head>
+<body>
+<header>Shared Pizza Shop － スタッフ専用 －</header>
+<main>
+<article>
+  <h1>種別一覧</h1>
+  <table class="list">
+    <tr>
+      <th>種別番号</th>
+      <th>種別名</th>
+    </tr>
+    <tr th:each="kind:${kindList}">
+      <td th:text="${kind.kindId}"></td>
+      <td><a th:href="@{/admin/menuitem/list/} + ${kind.kindId}" th:text="${kind.kindName}"></a></td>
+    </tr>
+  </table>
+</article>
+</main>
+<footer>Shared Pizza Shop</footer>
+</body>
+</html>
