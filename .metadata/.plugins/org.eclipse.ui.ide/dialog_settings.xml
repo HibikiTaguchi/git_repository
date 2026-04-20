@@ -6,6 +6,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\test_toumei\shared_shop_toumeiProgrammers"/>
 			<item value="C:\Users\edu\Downloads\shared_shop_name"/>
 			<item value="C:\Users\edu\Downloads\spring_crud_yamaguchi_mao"/>
 			<item value="C:\git_repository\sample_project"/>
@@ -29,6 +30,14 @@
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value="C:\Users\edu\Downloads\javaScript_sample.zip"/>
 			<item value="C:\Users\edu\Downloads\001_社員管理システム\001_問題\(PRGDE004)Spring_開発演習(社員管理システム)_ソースコード(編集用)_(JDK17_SpringBoot3.1.5版)_1.0.2.zip"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="419"/>
+		<item key="DIALOG_Y_ORIGIN" value="181"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
 		</list>
 	</section>
 </section>
