@@ -10,24 +10,24 @@
 <article>
   <h1>メニュー項目一覧</h1>
   <a th:href="@{/admin/menuitem/add}">メニュー項目追加</a>
-  <br>種別:<span th:text="${kindName}"></span>
+  <br>種別:<span th:text="${kindName == null ? 'すべて' : ${kindName}}"></span>
   <table class="list">
     <tr>
       <th>番号</th>
       <th>メニュー項目名</th>
       <th>価格</th>
       <th>ステータス</th>
-      <th>種別</th>
+      <th th:if="${kindName == null}">種別</th>
       <th>更新日付</th>
       <th class="button">操作</th>
     </tr>
     <tr th:each="mi:${miList}">
       <td th:text="${mi.menuitemId}"></td>
       <td th:text="${mi.menuitemName}"></td>
-      <td class="price" th:text="${mi.price}"></td>
-      <td th:text="${mi.status}"></td>
-      <td th:text="${mi.kind.kindName}"></td>
-      <td th:text="${mi.modifiedDate}"></td>
+      <td class="price" th:text="${#numbers.formatInteger(mi.price,3,'COMMA')}"></td>
+      <td th:text="${mi.status==0? '販売中':'販売停止'}"></td>
+      <td th:if="${kindName == null}" th:text="${mi.kind.kindName}"></td>
+      <td th:text="${#dates.format(mi.modifiedDate, 'yyyy/MM/dd')}"></td>
       <td class="button">
         <form th:action="@{/admin/menuitem/modify/} + ${mi.menuitemId}" method="post"><input type="submit" value="編集"/></form>
       </td>

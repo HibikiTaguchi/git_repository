@@ -25,11 +25,14 @@
 	 </tr>
 	 <tr>
 		<td>平均価格</td>
-		<td th:text="${siBean.kindAvgPrice}"></td>
+		<td th:text="${#numbers.formatInteger(siBean.kindAvgPrice,3,'COMMA')}"></td>
 	 </tr>
-  </table>  
-
-  <table class="list">
+  </table>
+  <th:block th:if="${miList == null || #lists.isEmpty(miList)}">
+	  <h1>メニュー 一覧</h1>
+  	  該当する情報がありません。<br><a th:href="@{/}">トップへ戻る</a>
+  </th:block>
+  <table th:if="${miList != null}" class="list">
     <tr>
       <th>番号</th>
       <th>メニュー名</th>
@@ -39,7 +42,7 @@
     <tr th:each="menuitem:${miList}">
       <td th:text="${menuitem.menuitemId}"></td>
       <td th:text="${menuitem.menuitemName}"></td>
-      <td class="price" th:text="${menuitem.price}"></td>
+      <td class="price" th:text="${#numbers.formatInteger(menuitem.price,3,'COMMA')}"></td>
       <td th:text="${menuitem.kind.kindName}"></td>
     </tr>
   </table>

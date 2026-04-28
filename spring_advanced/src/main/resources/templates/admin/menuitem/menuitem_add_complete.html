@@ -21,11 +21,11 @@
     </tr>
     <tr>
     <td>価格</td>
-    <td th:text="*{price}"></td>
+    <td th:text="*{#numbers.formatInteger(price,3,'COMMA')}"></td>
     </tr>
     <tr>
     <td>ステータス</td>
-    <td th:text="*{status}"></td>
+    <td th:text="*{status==0? '販売中':'販売停止'}"></td>
     </tr>
     <tr>
     <td>種別名</td>
@@ -33,7 +33,7 @@
     </tr>
     <tr>
     <td>更新日</td>
-    <td th:text="*{modifiedDate}"></td>
+    <td th:text="*{#dates.format(modifiedDate, 'yyyy/MM/dd')}"></td>
     </tr>
     </table>
 
